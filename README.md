@@ -41,3 +41,9 @@ Submit additions and updates through pull requests. Keep `short`, `version`, and
 the package manifest in sync; the Komari server verifies them before installation.
 Keep entries sorted by `short` (case-insensitive A-Z); CI enforces this. Run
 `node scripts/check-catalog-order.mjs --write` to apply the canonical order.
+
+Every six hours, GitHub Actions checks installable themes backed by GitHub Release
+assets. It combines a URL built from the repository URL, latest release tag, and
+current asset name with the Release API asset URL as a fallback. A package is only
+proposed in a pull request after its root `komari-theme.json`, `short`, `version`,
+and SHA-256 have been verified.
