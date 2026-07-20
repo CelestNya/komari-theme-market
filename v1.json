@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-20T00:00:00Z",
+  "updated_at": "2026-07-20T06:00:00Z",
   "themes": [
     {
       "name": "Kumo for Komari",
@@ -100,6 +100,152 @@
       "preview": "https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/hotaru-theme.png",
       "download": "https://github.com/komari-monitor/komari-web/releases/download/1.0.3/komari-theme-hotaru.zip",
       "sha256": "b5d86521b2614b2ddd85ec049a80f2e9e739a1de77992fd43a15db049facd5d2"
+    },
+    {
+      "name": {"zh-CN": "Komari NanoMuse 面板", "en": "Komari NanoMuse Panel"},
+      "short": "NanoMuse",
+      "description": {"zh-CN": "电子二次元监控面板主题，融合动漫 HUD 与稳定性面板。", "en": "An anime HUD and light sci-fi Komari dashboard with a built-in stability panel."},
+      "version": "1.3.1",
+      "author": {"zh-CN": "Miuler", "en": "Miuler"},
+      "url": "https://github.com/saladinxp/komari-nano-muse",
+      "preview": "https://opengraph.githubassets.com/1/saladinxp/komari-nano-muse",
+      "download": "https://github.com/saladinxp/komari-nano-muse/releases/download/v1.3.1/komari-nano-muse-v1.3.1.zip",
+      "sha256": "05107dcead33196257751894810edf139740e0846034b2087c89b2d859213d2a"
+    },
+    {
+      "name": {"zh-CN": "Komari PurCarte Plus", "en": "Komari Theme PurCarte Plus"},
+      "short": "PurCarte-Plus",
+      "description": {"zh-CN": "适用于 Komari 的毛玻璃主题。", "en": "A frosted glass theme for Komari."},
+      "version": "2026.07.20.1",
+      "author": {"zh-CN": "YannickYoung 与 Codex", "en": "YannickYoung & Codex"},
+      "url": "https://github.com/YoungYannick/komari-theme-purcarte-plus",
+      "preview": "https://opengraph.githubassets.com/1/YoungYannick/komari-theme-purcarte-plus",
+      "download": "https://github.com/YoungYannick/komari-theme-purcarte-plus/releases/download/v2026.07.20.1/komari-theme-purcarte-plus.zip",
+      "sha256": "a4674addc766a9e4c8fbdc61877cf3e7674428a24d675ecac01e4d556c8055e2"
+    },
+    {
+      "name": {"zh-CN": "Lumina", "en": "Lumina"},
+      "short": "Lumina",
+      "description": {"zh-CN": "Komari Lumina 主题。", "en": "A Komari Lumina theme."},
+      "version": "1.1.3",
+      "author": {"zh-CN": "shark 与 Codex", "en": "shark & Codex"},
+      "url": "https://github.com/stqfdyr/komari-theme-Lumina",
+      "preview": "https://opengraph.githubassets.com/1/stqfdyr/komari-theme-Lumina",
+      "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.3/Lumina-v1.1.3.zip",
+      "sha256": "b9f106520eab6b3ad5ac99745557e641843820df6c89c4c8506e6c157867c27f"
+    },
+    {
+      "name": {"zh-CN": "岚 (Ran)", "en": "Ran"},
+      "short": "ran",
+      "description": {"zh-CN": "精密金工质感的 Komari 主题，提供深浅多配色。", "en": "A precision-machined hi-fi inspired Komari theme with multiple light and dark colorways."},
+      "version": "2.1.2",
+      "author": {"zh-CN": "Miuler", "en": "Miuler"},
+      "url": "https://github.com/saladinxp/komari-ran-theme",
+      "preview": "https://opengraph.githubassets.com/1/saladinxp/komari-ran-theme",
+      "download": "https://github.com/saladinxp/komari-ran-theme/releases/download/v2.1.2/komari-ran-theme-v2.1.2.zip",
+      "sha256": "4ea93085644626a5208fcd66204aab7c9da6f910214881b903825f91cd760791"
+    },
+    {
+      "name": {"zh-CN": "ServerSentry", "en": "ServerSentry"},
+      "short": "ServerSentry-Rust",
+      "description": {"zh-CN": "基于 ServerStatus-Rust 的 Komari 主题改造，当前仅提供源码。", "en": "A ServerStatus-Rust theme adaptation for Komari; source code only at present."},
+      "version": "source",
+      "author": {"zh-CN": "bye1158", "en": "bye1158"},
+      "url": "https://github.com/bye1158/ServerSentry-Komari",
+      "preview": "https://opengraph.githubassets.com/1/bye1158/ServerSentry-Komari"
+    },
+    {
+      "name": {"zh-CN": "Komari Emerald", "en": "Komari Emerald"},
+      "short": "Emerald",
+      "description": {"zh-CN": "翡翠配色的 Komari 主题。", "en": "An emerald theme for Komari."},
+      "version": "1.0.2",
+      "author": {"zh-CN": "Tokinx", "en": "Tokinx"},
+      "url": "https://github.com/Tokinx/komari-theme-emerald",
+      "preview": "https://opengraph.githubassets.com/1/Tokinx/komari-theme-emerald",
+      "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.2/komari-theme-emerald-build-f299b36.zip",
+      "sha256": "5f6e85d5713fabe6f1bdaffd5e9ecb1e8f9c0bb1b5fc6708896ad5544a459321"
+    },
+    {
+      "name": {"zh-CN": "Komari Theme Commander", "en": "Komari Theme Commander"},
+      "short": "Commander",
+      "description": {"zh-CN": "赛博朋克命令终端主题，带 3D 地球与 HUD 风格节点卡片。", "en": "A cyberpunk command terminal theme with an interactive 3D globe and HUD-style node cards."},
+      "version": "1.5.4",
+      "author": {"zh-CN": "WayJam", "en": "WayJam"},
+      "url": "https://github.com/wayjam/komari-theme-commander",
+      "preview": "https://opengraph.githubassets.com/1/wayjam/komari-theme-commander",
+      "download": "https://github.com/wayjam/komari-theme-commander/releases/download/v1.5.4/komari-theme-commander%401.5.4.zip",
+      "sha256": "67000fc43933547fbb22d8598532b03ccd3b1711e69b9c25536c2672fbeb2537"
+    },
+    {
+      "name": {"zh-CN": "Komari Paper", "en": "Komari Paper"},
+      "short": "paper",
+      "description": {"zh-CN": "暖色纸张与手写风格的编辑式 Komari 主题。", "en": "An editorial Komari theme with warm paper, serif type and handwritten accents."},
+      "version": "26.07.17",
+      "author": {"zh-CN": "wood", "en": "wood"},
+      "url": "https://github.com/woodchen-ink/komari-paper",
+      "preview": "https://opengraph.githubassets.com/1/woodchen-ink/komari-paper",
+      "download": "https://github.com/woodchen-ink/komari-paper/releases/download/v26.07.17/komari-paper-v26.07.17.zip",
+      "sha256": "da723662f635ce872a0eaa21fa3d7683f8faf1fec5b14258302fbdf8822b51f4"
+    },
+    {
+      "name": {"zh-CN": "Komari Next Pro", "en": "Komari Next Pro"},
+      "short": "komari-next-pro",
+      "description": {"zh-CN": "DStatus 风格界面，包含资产面板、IP 信息与流媒体解锁集成。", "en": "A DStatus-style Komari theme with an asset dashboard, IP information and stream unlock integration."},
+      "version": "2.0.0",
+      "author": {"zh-CN": "LIU", "en": "LIU"},
+      "url": "https://github.com/fanchengliu/komari-next-pro",
+      "preview": "https://opengraph.githubassets.com/1/fanchengliu/komari-next-pro",
+      "download": "https://github.com/fanchengliu/komari-next-pro/releases/download/v2.0.0/komari-next-pro-v2.0.0-komari-upload.zip",
+      "sha256": "e557a5fe89eab5ec0b553f631511e499a01b611481e13771e8c5d3f8268b50ba"
+    },
+    {
+      "name": {"zh-CN": "nezha-BITJEBE", "en": "nezha-BITJEBE"},
+      "short": "nezha-BITJEBE",
+      "description": {"zh-CN": "由 Nezha Dash V1 与 nezha-dash 衍生的 Komari 主题。", "en": "A Komari theme derived from Nezha Dash V1 and nezha-dash."},
+      "version": "1.1.7",
+      "author": {"zh-CN": "BITJEBE", "en": "BITJEBE"},
+      "url": "https://github.com/BITJEBE/nezha-BITJEBE",
+      "preview": "https://opengraph.githubassets.com/1/BITJEBE/nezha-BITJEBE",
+      "download": "https://github.com/BITJEBE/nezha-BITJEBE/releases/download/v1.1.7/nezha-dash-theme-v1.1.7.zip",
+      "sha256": "3cb85f96581c6caf8e85c6bdec0c1f6bd1df37e5a16b8326a39ab6c8b9678936"
+    },
+    {
+      "name": {"zh-CN": "Nezha AngelKanade 移植", "en": "Nezha AngelKanade Port"},
+      "short": "nezha-angelkanade",
+      "description": {"zh-CN": "社区收录的 Nezha AngelKanade 移植，尚未提供可核验的主题包。", "en": "A community-listed Nezha AngelKanade port without a verifiable theme package."},
+      "version": "source",
+      "author": {"zh-CN": "未知", "en": "Unknown"},
+      "url": "https://www.nodeseek.com/post-750570-1"
+    },
+    {
+      "name": {"zh-CN": "Komari Deer", "en": "Komari Deer"},
+      "short": "komari-deer",
+      "description": {"zh-CN": "鹿主题的 Komari Monitor 仪表盘。", "en": "A deer-themed Komari Monitor dashboard."},
+      "version": "0.1.0",
+      "author": {"zh-CN": "DeerYang", "en": "DeerYang"},
+      "url": "https://github.com/DeerYang/komari-deer",
+      "preview": "https://opengraph.githubassets.com/1/DeerYang/komari-deer",
+      "download": "https://github.com/DeerYang/komari-deer/releases/download/v0.1.0/komari-deer-v0.1.0.zip",
+      "sha256": "6b77652e3472cc0ac5ede3e10eaa511e3f7e3251181ef3f930ecf06dc0283b6f"
+    },
+    {
+      "name": {"zh-CN": "Nezha Minimal", "en": "Nezha Minimal"},
+      "short": "nezha-minimal",
+      "description": {"zh-CN": "纯色极简风格 Komari 主题。", "en": "A solid-color minimal theme for Komari."},
+      "version": "1.1.20",
+      "author": {"zh-CN": "Komari Community", "en": "Komari Community"},
+      "url": "https://github.com/zleywb/nezha-minimal",
+      "preview": "https://opengraph.githubassets.com/1/zleywb/nezha-minimal",
+      "download": "https://github.com/zleywb/nezha-minimal/releases/download/V1.1.20/nezha-minimal.zip",
+      "sha256": "1d8193d03f67e147abe2a4fc161dacb22499ed8db76e93ec7fdd54f2dabde8c2"
+    },
+    {
+      "name": {"zh-CN": "Komari Zen", "en": "Komari Zen"},
+      "short": "komari-zen",
+      "description": {"zh-CN": "社区收录的 Zen 主题，仓库当前不可访问。", "en": "A community-listed Zen theme whose repository is currently unavailable."},
+      "version": "source",
+      "author": {"zh-CN": "qwer-xyz", "en": "qwer-xyz"},
+      "url": "https://github.com/qwer-xyz/komari-zen"
     }
   ]
 }
