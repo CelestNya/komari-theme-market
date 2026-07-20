@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "updated_at": "2026-07-20T00:00:00Z",
+  "themes": [
+    {
+      "name": "Kumo for Komari",
+      "short": "Kumo",
+      "description": "一个基于 Cloudflare Kumo 设计系统构建的简洁响应式 Komari 监控主题。",
+      "version": "1.3.2",
+      "author": "Yuanhhs",
+      "url": "https://github.com/yuanhhs/komari-theme-kumo",
+      "preview": "https://raw.githubusercontent.com/yuanhhs/komari-theme-kumo/main/.preview/preview.png",
+      "download": "https://github.com/yuanhhs/komari-theme-kumo/releases/download/1.3.2/komari-theme-kumo.zip",
+      "sha256": "52915687bfa3c5540a1faae6d37215106772badea042d5b971482227d77e248a"
+    },
+    {
+      "name": "Komari Theme Light",
+      "short": "light",
+      "description": "A clean and simple light theme for Komari Monitor with multiple color variations.",
+      "version": "1.1.1",
+      "author": "uvexz",
+      "url": "https://github.com/uvexz/komari-theme-light",
+      "preview": "https://raw.githubusercontent.com/komari-monitor/komari-document/main/public/assets/theme-light.webp",
+      "download": "https://github.com/uvexz/komari-theme-light/releases/download/v1.1.1/komari-theme-light.zip",
+      "sha256": "c4b9bdb72eccca0f101aa05557d81e7bf27b283832f796a51fff3f6134e10d26"
+    },
+    {
+      "name": "Komari Web Mochi",
+      "short": "Mochi",
+      "description": "Another Komari Web Theme",
+      "version": "1.1.8",
+      "author": "Mochi DEV Team",
+      "url": "https://github.com/svnmoe/komari-web-mochi",
+      "preview": "https://i.111666.best/image/Os7F4bwuyR7F6I78zDCvPI.jpeg",
+      "download": "https://github.com/svnmoe/komari-web-mochi/releases/download/v1.1.8/komari-theme-v26.06.07-aaba47f.zip",
+      "sha256": "60e2f2e42ae8a8921972adeec74c5920e7501d1c6ca3a070149ecf01f7e092b4"
+    },
+    {
+      "name": "Komari Mikus",
+      "short": "Mikus",
+      "description": "A modern, elegant Komari monitoring theme with light/dark switching and responsive grid and table views.",
+      "version": "2.0.3",
+      "author": "Miku",
+      "url": "https://github.com/mikus-loli/komari-mikus",
+      "preview": "https://image.mikus.ink/uploads/HayasakaAi/2026/07/05/d3eab55445a8.webp",
+      "download": "https://github.com/mikus-loli/komari-mikus/releases/download/v2.0.3/komari-mikus-v2.0.3.zip",
+      "sha256": "0e4a2fc34420328f66768c1be89e50a0cebaef6af0a7d81c56d3bf1aeadd21c8"
+    },
+    {
+      "name": "Komari Naive",
+      "short": "Naive",
+      "description": "A Naive UI theme for Komari.",
+      "version": "1.1.1",
+      "author": "lyimoexiao",
+      "url": "https://github.com/lyimoexiao/komari-theme-naive",
+      "preview": "https://raw.githubusercontent.com/lyimoexiao/komari-theme-naive/master/docs/preview.png",
+      "download": "https://github.com/lyimoexiao/komari-theme-naive/releases/download/release-v1.1.1/komari-theme-naive-build-5e23347.zip",
+      "sha256": "d227842c5f99e2657c081b9e40d621d63a64debd08e3e4c456e533b445c90e8a"
+    },
+    {
+      "name": "Komari Next",
+      "short": "next",
+      "description": "Next.js theme for Komari Monitor with multiple layouts, color schemes and status views.",
+      "version": "1.4.18",
+      "author": "tonyliuzj",
+      "url": "https://github.com/tonyliuzj/komari-next",
+      "preview": "https://github.com/tonyliuzj/komari-next/raw/main/images/dark-theme.png",
+      "download": "https://github.com/tonyliuzj/komari-next/releases/download/1.4.18/dist-release.zip",
+      "sha256": "e6da850074537c23360b9f44e553f261959780217827d3cbdec0584d9f9a669d"
+    },
+    {
+      "name": "Komari Theme PurCarte",
+      "short": "PurCarte",
+      "description": "A frosted glass theme for Komari.",
+      "version": "1.2.5",
+      "author": "Montia & Gemini",
+      "url": "https://github.com/Montia37/komari-theme-purcarte",
+      "preview": "https://i.111666.best/image/fjLgp8zlWY3DOW26WRDOJ3.jpeg",
+      "download": "https://github.com/Montia37/komari-theme-purcarte/releases/download/v1.2.5/komari-theme-purcarte.zip",
+      "sha256": "a63d5294d92fb5ed1ff66134ccca5d7b0fb2f76d9ec258ba41e5e46dd33a9c31"
+    },
+    {
+      "name": "ServerSentry Komari",
+      "short": "ServerSentry",
+      "description": "基于 Next.js 的现代化服务器监控主题。",
+      "version": "1.0.4",
+      "author": "Asahina1096",
+      "url": "https://github.com/Asahina1096/ServerSentry-Komari",
+      "preview": "https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/ServerSentry-theme.webp",
+      "download": "https://github.com/Asahina1096/ServerSentry-Komari/releases/download/1.0.4/serversentry-theme-1.0.4.zip",
+      "sha256": "820d0de25082ae8cf73e60e91c2dac78bbd32da60c3f0c92e88e3cd2b9a8646c"
+    },
+    {
+      "name": "ServerStatus-Hotaru",
+      "short": "Hotaru",
+      "description": "ServerStatus-Hotaru theme for Komari Monitor. This theme is no longer maintained.",
+      "version": "1.0.0",
+      "author": "cokemine & Claude Sonnet 4",
+      "url": "https://github.com/cokemine/ServerStatus-Hotaru",
+      "preview": "https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/hotaru-theme.png",
+      "download": "https://github.com/komari-monitor/komari-web/releases/download/1.0.3/komari-theme-hotaru.zip",
+      "sha256": "b5d86521b2614b2ddd85ec049a80f2e9e739a1de77992fd43a15db049facd5d2"
+    }
+  ]
+}
