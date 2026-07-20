@@ -1,0 +1,23 @@
+name: Validate Theme Catalog
+
+on:
+  push:
+    paths:
+      - v1.json
+      - scripts/check-catalog-order.mjs
+      - .github/workflows/validate-catalog.yml
+  pull_request:
+    paths:
+      - v1.json
+      - scripts/check-catalog-order.mjs
+      - .github/workflows/validate-catalog.yml
+
+jobs:
+  catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/check-catalog-order.mjs

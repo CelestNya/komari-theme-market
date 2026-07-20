@@ -39,3 +39,5 @@ install action.
 
 Submit additions and updates through pull requests. Keep `short`, `version`, and
 the package manifest in sync; the Komari server verifies them before installation.
+Keep entries sorted by `short` (case-insensitive A-Z); CI enforces this. Run
+`node scripts/check-catalog-order.mjs --write` to apply the canonical order.
