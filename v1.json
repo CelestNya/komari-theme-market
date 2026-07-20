@@ -38,7 +38,7 @@
         "en": "Tokinx"
       },
       "url": "https://github.com/Tokinx/komari-theme-emerald",
-      "preview": "https://opengraph.githubassets.com/1/Tokinx/komari-theme-emerald",
+      "preview": "https://raw.githubusercontent.com/Tokinx/komari-theme-emerald/refs/heads/master/docs/preview.png",
       "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.2/komari-theme-emerald-build-f299b36.zip",
       "sha256": "5f6e85d5713fabe6f1bdaffd5e9ecb1e8f9c0bb1b5fc6708896ad5544a459321"
     },
@@ -69,7 +69,7 @@
         "en": "DeerYang"
       },
       "url": "https://github.com/DeerYang/komari-deer",
-      "preview": "https://opengraph.githubassets.com/1/DeerYang/komari-deer",
+      "preview": "https://raw.githubusercontent.com/DeerYang/komari-deer/refs/heads/main/preview.png",
       "download": "https://github.com/DeerYang/komari-deer/releases/download/v0.1.0/komari-deer-v0.1.0.zip",
       "sha256": "6b77652e3472cc0ac5ede3e10eaa511e3f7e3251181ef3f930ecf06dc0283b6f"
     },
@@ -92,23 +92,6 @@
       "preview": "https://opengraph.githubassets.com/1/fanchengliu/komari-next-pro",
       "download": "https://github.com/fanchengliu/komari-next-pro/releases/download/v2.0.0/komari-next-pro-v2.0.0-komari-upload.zip",
       "sha256": "e557a5fe89eab5ec0b553f631511e499a01b611481e13771e8c5d3f8268b50ba"
-    },
-    {
-      "name": {
-        "zh-CN": "Komari Zen",
-        "en": "Komari Zen"
-      },
-      "short": "komari-zen",
-      "description": {
-        "zh-CN": "社区收录的 Zen 主题，仓库当前不可访问。",
-        "en": "A community-listed Zen theme whose repository is currently unavailable."
-      },
-      "version": "source",
-      "author": {
-        "zh-CN": "qwer-xyz",
-        "en": "qwer-xyz"
-      },
-      "url": "https://github.com/qwer-xyz/komari-zen"
     },
     {
       "name": "Kumo for Komari",
@@ -148,7 +131,7 @@
         "en": "shark & Codex"
       },
       "url": "https://github.com/stqfdyr/komari-theme-Lumina",
-      "preview": "https://opengraph.githubassets.com/1/stqfdyr/komari-theme-Lumina",
+      "preview": "https://raw.githubusercontent.com/stqfdyr/komari-theme-Lumina/refs/heads/main/preview-readme.png",
       "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.3/Lumina-v1.1.3.zip",
       "sha256": "b9f106520eab6b3ad5ac99745557e641843820df6c89c4c8506e6c157867c27f"
     },
@@ -201,7 +184,7 @@
         "en": "Miuler"
       },
       "url": "https://github.com/saladinxp/komari-nano-muse",
-      "preview": "https://opengraph.githubassets.com/1/saladinxp/komari-nano-muse",
+      "preview": "https://raw.githubusercontent.com/saladinxp/komari-nano-muse/refs/heads/main/preview.png",
       "download": "https://github.com/saladinxp/komari-nano-muse/releases/download/v1.3.1/komari-nano-muse-v1.3.1.zip",
       "sha256": "05107dcead33196257751894810edf139740e0846034b2087c89b2d859213d2a"
     },
@@ -215,23 +198,6 @@
       "preview": "https://github.com/tonyliuzj/komari-next/raw/main/images/dark-theme.png",
       "download": "https://github.com/tonyliuzj/komari-next/releases/download/1.4.18/dist-release.zip",
       "sha256": "e6da850074537c23360b9f44e553f261959780217827d3cbdec0584d9f9a669d"
-    },
-    {
-      "name": {
-        "zh-CN": "Nezha AngelKanade 移植",
-        "en": "Nezha AngelKanade Port"
-      },
-      "short": "nezha-angelkanade",
-      "description": {
-        "zh-CN": "社区收录的 Nezha AngelKanade 移植，尚未提供可核验的主题包。",
-        "en": "A community-listed Nezha AngelKanade port without a verifiable theme package."
-      },
-      "version": "source",
-      "author": {
-        "zh-CN": "未知",
-        "en": "Unknown"
-      },
-      "url": "https://www.nodeseek.com/post-750570-1"
     },
     {
       "name": {
@@ -249,7 +215,7 @@
         "en": "BITJEBE"
       },
       "url": "https://github.com/BITJEBE/nezha-BITJEBE",
-      "preview": "https://opengraph.githubassets.com/1/BITJEBE/nezha-BITJEBE",
+      "preview": "https://raw.githubusercontent.com/BITJEBE/nezha-BITJEBE/refs/heads/main/preview.png",
       "download": "https://github.com/BITJEBE/nezha-BITJEBE/releases/download/v1.1.7/nezha-dash-theme-v1.1.7.zip",
       "sha256": "3cb85f96581c6caf8e85c6bdec0c1f6bd1df37e5a16b8326a39ab6c8b9678936"
     },
@@ -269,7 +235,7 @@
         "en": "Komari Community"
       },
       "url": "https://github.com/zleywb/nezha-minimal",
-      "preview": "https://opengraph.githubassets.com/1/zleywb/nezha-minimal",
+      "preview": "https://raw.githubusercontent.com/zleywb/nezha-minimal/refs/heads/main/preview.png",
       "download": "https://github.com/zleywb/nezha-minimal/releases/download/V1.1.20/nezha-minimal.zip",
       "sha256": "1d8193d03f67e147abe2a4fc161dacb22499ed8db76e93ec7fdd54f2dabde8c2"
     },
@@ -289,7 +255,7 @@
         "en": "wood"
       },
       "url": "https://github.com/woodchen-ink/komari-paper",
-      "preview": "https://opengraph.githubassets.com/1/woodchen-ink/komari-paper",
+      "preview": "https://raw.githubusercontent.com/woodchen-ink/komari-paper/refs/heads/main/preview.png",
       "download": "https://github.com/woodchen-ink/komari-paper/releases/download/v26.07.17/komari-paper-v26.07.17.zip",
       "sha256": "da723662f635ce872a0eaa21fa3d7683f8faf1fec5b14258302fbdf8822b51f4"
     },
@@ -320,7 +286,7 @@
         "en": "YannickYoung & Codex"
       },
       "url": "https://github.com/YoungYannick/komari-theme-purcarte-plus",
-      "preview": "https://opengraph.githubassets.com/1/YoungYannick/komari-theme-purcarte-plus",
+      "preview": "https://raw.githubusercontent.com/woodchen-ink/komari-paper/refs/heads/main/preview.png",
       "download": "https://github.com/YoungYannick/komari-theme-purcarte-plus/releases/download/v2026.07.20.1/komari-theme-purcarte-plus.zip",
       "sha256": "a4674addc766a9e4c8fbdc61877cf3e7674428a24d675ecac01e4d556c8055e2"
     },
@@ -340,7 +306,7 @@
         "en": "Miuler"
       },
       "url": "https://github.com/saladinxp/komari-ran-theme",
-      "preview": "https://opengraph.githubassets.com/1/saladinxp/komari-ran-theme",
+      "preview": "https://raw.githubusercontent.com/saladinxp/komari-ran-theme/refs/heads/main/preview.png",
       "download": "https://github.com/saladinxp/komari-ran-theme/releases/download/v2.1.2/komari-ran-theme-v2.1.2.zip",
       "sha256": "4ea93085644626a5208fcd66204aab7c9da6f910214881b903825f91cd760791"
     },
@@ -354,24 +320,6 @@
       "preview": "https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/ServerSentry-theme.webp",
       "download": "https://github.com/Asahina1096/ServerSentry-Komari/releases/download/1.0.4/serversentry-theme-1.0.4.zip",
       "sha256": "820d0de25082ae8cf73e60e91c2dac78bbd32da60c3f0c92e88e3cd2b9a8646c"
-    },
-    {
-      "name": {
-        "zh-CN": "ServerSentry",
-        "en": "ServerSentry"
-      },
-      "short": "ServerSentry-Rust",
-      "description": {
-        "zh-CN": "基于 ServerStatus-Rust 的 Komari 主题改造，当前仅提供源码。",
-        "en": "A ServerStatus-Rust theme adaptation for Komari; source code only at present."
-      },
-      "version": "source",
-      "author": {
-        "zh-CN": "bye1158",
-        "en": "bye1158"
-      },
-      "url": "https://github.com/bye1158/ServerSentry-Komari",
-      "preview": "https://opengraph.githubassets.com/1/bye1158/ServerSentry-Komari"
     }
   ]
 }
