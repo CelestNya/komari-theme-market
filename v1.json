@@ -272,13 +272,13 @@
     },
     {
       "name": {
-        "zh-CN": "Komari PurCarte Plus",
+        "zh-CN": "Komari Theme PurCarte Plus",
         "en": "Komari Theme PurCarte Plus"
       },
       "short": "PurCarte-Plus",
       "description": {
-        "zh-CN": "适用于 Komari 的毛玻璃主题。",
-        "en": "A frosted glass theme for Komari."
+        "zh-CN": "一款为 Komari 设计的磨砂玻璃风格个性化增强版主题",
+        "en": "An enhanced, personalized frosted glass theme for Komari."
       },
       "version": "2026.07.20.1",
       "author": {
@@ -286,7 +286,7 @@
         "en": "YannickYoung & Codex"
       },
       "url": "https://github.com/YoungYannick/komari-theme-purcarte-plus",
-      "preview": "https://raw.githubusercontent.com/woodchen-ink/komari-paper/refs/heads/main/preview.png",
+      "preview": "https://raw.githubusercontent.com/YoungYannick/komari-theme-purcarte-plus/master/preview.png",
       "download": "https://github.com/YoungYannick/komari-theme-purcarte-plus/releases/download/v2026.07.20.1/komari-theme-purcarte-plus.zip",
       "sha256": "a4674addc766a9e4c8fbdc61877cf3e7674428a24d675ecac01e4d556c8055e2"
     },
