@@ -125,15 +125,15 @@
         "zh-CN": "Komari Lumina 主题。",
         "en": "A Komari Lumina theme."
       },
-      "version": "1.1.3",
+      "version": "1.1.4",
       "author": {
         "zh-CN": "shark 与 Codex",
         "en": "shark & Codex"
       },
       "url": "https://github.com/stqfdyr/komari-theme-Lumina",
-      "preview": "https://raw.githubusercontent.com/stqfdyr/komari-theme-Lumina/refs/heads/main/preview-readme.png",
-      "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.3/Lumina-v1.1.3.zip",
-      "sha256": "b9f106520eab6b3ad5ac99745557e641843820df6c89c4c8506e6c157867c27f"
+      "preview": "https://raw.githubusercontent.com/stqfdyr/komari-theme-Lumina/refs/heads/main/preview.png",
+      "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.4/Lumina-v1.1.4.zip",
+      "sha256": "586f5b22885e1f574bfdaa65631cebe4ce0c0e92984aedb74c9cf78efc3f9e38"
     },
     {
       "name": "Komari Mikus",
