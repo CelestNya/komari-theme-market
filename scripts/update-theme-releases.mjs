@@ -6,6 +6,8 @@ import path from "node:path";
 
 const catalogPath = new URL("../v1.json", import.meta.url);
 const dryRun = process.argv.includes("--dry-run");
+const prBodyArgument = process.argv.find((argument) => argument.startsWith("--pr-body="));
+const prBodyPath = prBodyArgument?.slice("--pr-body=".length);
 const catalog = JSON.parse(fs.readFileSync(catalogPath, "utf8"));
 const githubToken = process.env.GITHUB_TOKEN;
 
@@ -134,30 +136,86 @@ async function updateTheme(theme) {
 
   const sha256 = createHash("sha256").update(packageData).digest("hex");
   if (theme.version === manifest.version && theme.download === downloadURL && theme.sha256 === sha256) {
-    return false;
+    return null;
   }
 
+  const previous = {
+    version: theme.version,
+    releaseTag,
+    assetName,
+  };
   theme.version = manifest.version;
   theme.download = downloadURL;
   theme.sha256 = sha256;
   console.log(`${theme.short}: updated from release ${release.tag_name}`);
-  return true;
+  return {
+    short: theme.short,
+    repository: repository.url,
+    previous,
+    releaseTag: release.tag_name,
+    assetName: currentAssetName({ download: downloadURL }) ?? assetName,
+    version: manifest.version,
+    sha256,
+  };
 }
 
-let changed = false;
+const updates = [];
 for (const theme of catalog.themes) {
   try {
-    changed = (await updateTheme(theme)) || changed;
+    const update = await updateTheme(theme);
+    if (update) updates.push(update);
   } catch (error) {
     console.warn(`${theme.short}: release check failed (${error.message})`);
   }
 }
 
-if (changed) {
+function escapeTableCell(value) {
+  return String(value).replaceAll("|", "\\|");
+}
+
+function formatPRBody(themeUpdates) {
+  if (themeUpdates.length === 0) {
+    return "## Verified Komari theme release packages\n\nNo catalog changes were detected.";
+  }
+
+  const inlineCode = (value) => `\`${escapeTableCell(value)}\``;
+  const rows = themeUpdates.map((update) => [
+    `[${escapeTableCell(update.short)}](${update.repository})`,
+    `${inlineCode(update.previous.version)} -> ${inlineCode(update.version)}`,
+    `${inlineCode(update.previous.releaseTag)} -> ${inlineCode(update.releaseTag)}`,
+    inlineCode(update.assetName),
+  ].join(" | "));
+  const checksums = themeUpdates.map((update) => `- ${inlineCode(update.short)}: ${inlineCode(update.sha256)}`);
+
+  return [
+    "## Verified Komari theme release packages",
+    "",
+    "The scheduled release monitor found the following verified package updates:",
+    "",
+    "| Theme | Catalog version | GitHub Release | Package asset |",
+    "| --- | --- | --- | --- |",
+    ...rows,
+    "",
+    "Each package was downloaded from its latest GitHub Release and verified against its root `komari-theme.json`: the manifest `short` matches the catalog entry, the manifest contains a version, and the catalog SHA-256 below was recalculated from that exact ZIP.",
+    "",
+    "<details>",
+    "<summary>Verified SHA-256 checksums</summary>",
+    "",
+    ...checksums,
+    "",
+    "</details>",
+  ].join("\n");
+}
+
+if (updates.length > 0) {
   catalog.themes.sort(compareShort);
   catalog.updated_at = new Date().toISOString();
   if (!dryRun) fs.writeFileSync(catalogPath, `${JSON.stringify(catalog, null, 2)}\n`);
   console.log(dryRun ? "Theme updates found (dry run)" : "Updated v1.json");
 } else {
   console.log("No theme release updates found");
+}
+
+if (prBodyPath) {
+  fs.writeFileSync(prBodyPath, `${formatPRBody(updates)}\n`);
 }

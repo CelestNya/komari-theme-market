@@ -17,7 +17,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/update-theme-releases.mjs
+      - run: node scripts/update-theme-releases.mjs --pr-body="$RUNNER_TEMP/theme-release-pr-body.md"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: node scripts/check-catalog-order.mjs
@@ -28,4 +28,4 @@ jobs:
           delete-branch: true
           commit-message: "chore: update theme releases"
           title: "chore: update theme releases"
-          body: "Automated update of verified Komari theme release packages."
+          body-path: ${{ runner.temp }}/theme-release-pr-body.md
