@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-22T03:47:56.525Z",
+  "updated_at": "2026-07-23T03:45:45.554Z",
   "themes": [
     {
       "name": {
@@ -161,12 +161,12 @@
       "name": "Komari Naive",
       "short": "Naive",
       "description": "A Naive UI theme for Komari.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "author": "lyimoexiao",
       "url": "https://github.com/lyimoexiao/komari-theme-naive",
       "preview": "https://raw.githubusercontent.com/lyimoexiao/komari-theme-naive/master/docs/preview.png",
-      "download": "https://github.com/lyimoexiao/komari-theme-naive/releases/download/release-v1.1.1/komari-theme-naive-build-5e23347.zip",
-      "sha256": "d227842c5f99e2657c081b9e40d621d63a64debd08e3e4c456e533b445c90e8a"
+      "download": "https://github.com/lyimoexiao/komari-theme-naive/releases/download/release-v1.1.2/komari-theme-naive-build-ac5b98d.zip",
+      "sha256": "0162cbb775e86fd900f49980ccb0f37335015dca27a22709313dbbfb7421a12d"
     },
     {
       "name": {
