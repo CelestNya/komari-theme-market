@@ -10,6 +10,7 @@ import os
 import re
 import socket
 import stat
+import struct
 import sys
 import urllib.error
 import urllib.parse
@@ -28,6 +29,7 @@ MAX_ARCHIVE_FILE_SIZE = 128 << 20
 MAX_EXTRACTED_SIZE = 512 << 20
 MAX_MANIFEST_SIZE = 1 << 20
 MAX_JSON_SIZE = 4 << 20
+MAX_PREVIEW_SIZE = 10 << 20
 MAX_REDIRECTS = 10
 
 GITHUB_REPOSITORY_FIELD = "GitHub 仓库地址 / GitHub repository URL"
@@ -106,6 +108,14 @@ class HTTPClient:
         return self._request(
             url,
             MAX_DOWNLOAD_SIZE,
+            headers={"User-Agent": "komari-theme-market-submission-checker"},
+            require_public=True,
+        )
+
+    def download_preview(self, url: str) -> bytes:
+        return self._request(
+            url,
+            MAX_PREVIEW_SIZE,
             headers={"User-Agent": "komari-theme-market-submission-checker"},
             require_public=True,
         )
@@ -254,6 +264,48 @@ def validate_public_url(value: str) -> None:
             )
 
 
+def normalize_preview_url(value: str) -> str:
+    parsed = validate_http_url(value, PREVIEW_FIELD)
+    if parsed.hostname.lower() not in {"github.com", "www.github.com"}:
+        return value
+
+    parts = [part for part in parsed.path.split("/") if part]
+    if len(parts) < 5 or parts[2] != "blob":
+        return value
+
+    raw_path = "/".join([parts[0], parts[1], *parts[3:]])
+    return f"https://raw.githubusercontent.com/{raw_path}"
+
+
+def validate_preview_image(data: bytes) -> None:
+    is_png = (
+        len(data) >= 24
+        and data.startswith(b"\x89PNG\r\n\x1a\n")
+        and data[8:12] == b"\x00\x00\x00\r"
+        and data[12:16] == b"IHDR"
+        and all(struct.unpack(">II", data[16:24]))
+    )
+    is_gif = (
+        len(data) >= 10
+        and data[:6] in {b"GIF87a", b"GIF89a"}
+        and all(struct.unpack("<HH", data[6:10]))
+    )
+    is_jpeg = len(data) >= 4 and data.startswith(b"\xff\xd8\xff")
+    is_webp = len(data) >= 16 and data[:4] == b"RIFF" and data[8:12] == b"WEBP"
+    is_avif = len(data) >= 16 and data[4:8] == b"ftyp" and data[8:12] in {b"avif", b"avis"}
+    if not (is_png or is_gif or is_jpeg or is_webp or is_avif):
+        raise SubmissionError(
+            "预览图不是有效的 PNG、JPEG、GIF、WebP 或 AVIF 图像 / "
+            "Preview image is not a valid PNG, JPEG, GIF, WebP, or AVIF image"
+        )
+
+
+def prepare_preview_url(value: str, client: HTTPClient) -> str:
+    preview = normalize_preview_url(value)
+    validate_preview_image(client.download_preview(preview))
+    return preview
+
+
 def parse_github_repository(value: str) -> tuple[str, str]:
     parsed = validate_http_url(value, "GitHub 仓库地址 / GitHub repository URL")
     if parsed.hostname.lower() not in {"github.com", "www.github.com"}:
@@ -393,7 +445,7 @@ def process_github_submission(
         GITHUB_CONFIRMATION_FIELD,
         [PUBLIC_RELEASE_CONFIRMATION],
     )
-    validate_http_url(preview, "预览图链接 / Preview image URL")
+    preview = prepare_preview_url(preview, client)
     owner, repository = parse_github_repository(repository_input)
 
     repo = client.get_github_json(
@@ -479,7 +531,7 @@ def process_external_submission(
 
     reject_github_hosted_url(project_url, "项目地址 / Project URL")
     reject_github_hosted_url(download, "主题包下载地址 / Theme package URL")
-    validate_http_url(preview, "预览图链接 / Preview image URL")
+    preview = prepare_preview_url(preview, client)
 
     package_data = client.download(download)
     manifest = inspect_theme_package(package_data)

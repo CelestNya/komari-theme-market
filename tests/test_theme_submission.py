@@ -10,6 +10,12 @@ from unittest import mock
 from scripts import theme_submission as submission
 
 
+VALID_PNG = (
+    b"\x89PNG\r\n\x1a\n"
+    b"\x00\x00\x00\rIHDR\x00\x00\x00\x01\x00\x00\x00\x01"
+)
+
+
 def make_theme_zip(manifest=None, extra_entries=None):
     manifest = manifest or {
         "name": "Test Theme",
@@ -84,6 +90,12 @@ class FakeClient:
             raise value
         return value
 
+    def download_preview(self, url):
+        value = self.downloads.get(url, VALID_PNG)
+        if isinstance(value, Exception):
+            raise value
+        return value
+
 
 class IssueFormTests(unittest.TestCase):
     def test_parse_issue_form_handles_crlf_and_no_response(self):
@@ -115,6 +127,14 @@ class IssueFormTests(unittest.TestCase):
     def test_repository_parser_rejects_subpaths(self):
         with self.assertRaises(submission.SubmissionError):
             submission.parse_github_repository("https://github.com/owner/theme/releases")
+
+    def test_preview_blob_url_is_normalized_to_raw_github(self):
+        self.assertEqual(
+            submission.normalize_preview_url(
+                "https://github.com/imengying/Komari-Glass/blob/main/preview.png"
+            ),
+            "https://raw.githubusercontent.com/imengying/Komari-Glass/main/preview.png",
+        )
 
 
 class PackageTests(unittest.TestCase):
@@ -189,6 +209,39 @@ class SubmissionTests(unittest.TestCase):
         self.assertEqual(result.release_tag, "v1.2.3")
         self.assertEqual(result.theme["sha256"], hashlib.sha256(good).hexdigest())
         self.assertEqual(result.theme["url"], "https://github.com/example/theme")
+
+    def test_github_submission_normalizes_and_validates_preview(self):
+        package = make_theme_zip()
+        preview = "https://github.com/example/theme/blob/main/preview.png"
+        raw_preview = "https://raw.githubusercontent.com/example/theme/main/preview.png"
+        assets = [
+            {
+                "name": "theme.zip",
+                "browser_download_url": "https://github.com/example/theme/releases/download/v1/theme.zip",
+                "data": package,
+            }
+        ]
+        client = self.github_client(assets)
+        client.downloads[raw_preview] = VALID_PNG
+        fields = submission.parse_issue_form(
+            github_issue_body().replace("https://cdn.example.com/preview.png", preview)
+        )
+
+        result = submission.process_github_submission(fields, client)
+
+        self.assertEqual(result.theme["preview"], raw_preview)
+
+    def test_external_submission_rejects_non_image_preview(self):
+        package = make_theme_zip()
+        preview = "https://cdn.example.com/preview.png"
+        with self.assertRaisesRegex(submission.SubmissionError, "预览图不是有效"):
+            submission.process_external_submission(
+                submission.parse_issue_form(external_issue_body()),
+                FakeClient(downloads={
+                    "https://downloads.example.com/test.zip": package,
+                    preview: b"not an image",
+                }),
+            )
 
     def test_github_submission_rejects_multiple_valid_zips(self):
         package = make_theme_zip()
