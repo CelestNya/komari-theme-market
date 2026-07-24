@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-23T19:46:43.973Z",
+  "updated_at": "2026-07-24T02:34:57.394Z",
   "themes": [
     {
       "name": {
@@ -41,6 +41,17 @@
       "preview": "https://raw.githubusercontent.com/Tokinx/komari-theme-emerald/refs/heads/master/docs/preview.png",
       "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.4/komari-theme-emerald-build-b946e7b.zip",
       "sha256": "b24355dcbdc348d17c9d8ec080d46caa8b880ee468d1760c6f25f5972348d045"
+    },
+    {
+      "name": "Komari Glassmorphism",
+      "short": "Glassmorphism",
+      "description": "A Glassmorphism theme for Komari",
+      "version": "3.2.0",
+      "author": "sanrokamlan",
+      "url": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism",
+      "preview": "https://raw.githubusercontent.com/sanrokamlan-prog/komari-theme-Glassmorphism/refs/heads/main/docs/preview.png",
+      "download": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism/releases/download/v3.2.0/komari-theme-Glassmorphism-build-ce11932.zip",
+      "sha256": "1b4fe7efb90b8014838f273ad5e11baad87bf67084c8c0485affbbcbb3632d78"
     },
     {
       "name": "ServerStatus-Hotaru",
