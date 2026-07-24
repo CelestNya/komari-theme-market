@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-23T03:45:45.554Z",
+  "updated_at": "2026-07-23T19:46:43.973Z",
   "themes": [
     {
       "name": {
@@ -32,15 +32,15 @@
         "zh-CN": "翡翠配色的 Komari 主题。",
         "en": "An emerald theme for Komari."
       },
-      "version": "1.0.2",
+      "version": "1.0.4",
       "author": {
         "zh-CN": "Tokinx",
         "en": "Tokinx"
       },
       "url": "https://github.com/Tokinx/komari-theme-emerald",
       "preview": "https://raw.githubusercontent.com/Tokinx/komari-theme-emerald/refs/heads/master/docs/preview.png",
-      "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.2/komari-theme-emerald-build-f299b36.zip",
-      "sha256": "5f6e85d5713fabe6f1bdaffd5e9ecb1e8f9c0bb1b5fc6708896ad5544a459321"
+      "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.4/komari-theme-emerald-build-b946e7b.zip",
+      "sha256": "b24355dcbdc348d17c9d8ec080d46caa8b880ee468d1760c6f25f5972348d045"
     },
     {
       "name": "ServerStatus-Hotaru",
@@ -125,15 +125,15 @@
         "zh-CN": "Komari Lumina 主题。",
         "en": "A Komari Lumina theme."
       },
-      "version": "1.1.4",
+      "version": "1.1.6",
       "author": {
         "zh-CN": "shark 与 Codex",
         "en": "shark & Codex"
       },
       "url": "https://github.com/stqfdyr/komari-theme-Lumina",
       "preview": "https://raw.githubusercontent.com/stqfdyr/komari-theme-Lumina/refs/heads/main/preview.png",
-      "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.4/Lumina-v1.1.4.zip",
-      "sha256": "586f5b22885e1f574bfdaa65631cebe4ce0c0e92984aedb74c9cf78efc3f9e38"
+      "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.6/Lumina-v1.1.6.zip",
+      "sha256": "a8847c40ee59bc3ab8d9f9173f34d4aa8a2a1f51ada8b5075901a677352038a5"
     },
     {
       "name": "Komari Mikus",
@@ -192,12 +192,12 @@
       "name": "Komari Next",
       "short": "next",
       "description": "Next.js theme for Komari Monitor with multiple layouts, color schemes and status views.",
-      "version": "1.4.18",
+      "version": "1.4.19",
       "author": "tonyliuzj",
       "url": "https://github.com/tonyliuzj/komari-next",
       "preview": "https://github.com/tonyliuzj/komari-next/raw/main/images/dark-theme.png",
-      "download": "https://github.com/tonyliuzj/komari-next/releases/download/1.4.18/dist-release.zip",
-      "sha256": "e6da850074537c23360b9f44e553f261959780217827d3cbdec0584d9f9a669d"
+      "download": "https://github.com/tonyliuzj/komari-next/releases/download/1.4.19/dist-release.zip",
+      "sha256": "94c9fff9830266013ef2cbd02fe02a4773d3a88606f3b28b627a77b2ce3a11ae"
     },
     {
       "name": {
