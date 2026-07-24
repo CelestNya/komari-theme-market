@@ -12,6 +12,9 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    concurrency:
+      group: theme-market-catalog-writes
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

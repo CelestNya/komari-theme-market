@@ -1,0 +1,92 @@
+name: 提交非 GitHub 托管的主题
+description: Submit a theme package not hosted on GitHub.
+title: "[Theme] "
+labels:
+  - theme-submission
+  - external-theme
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 提交非 GitHub 托管的主题
+
+        Submit a theme package that is not hosted on GitHub.
+
+  - type: input
+    id: project_url
+    attributes:
+      label: 项目地址 / Project URL
+      description: 公开主页或源码仓库地址。 / Public homepage or source repository URL.
+      placeholder: "https://example.com/project"
+    validations:
+      required: true
+
+  - type: input
+    id: download
+    attributes:
+      label: 主题包下载地址 / Theme package URL
+      description: 主题 ZIP 的公开 HTTP(S) 下载链接。 / Public HTTP(S) URL of the theme ZIP.
+      placeholder: "https://example.com/theme.zip"
+    validations:
+      required: true
+
+  - type: input
+    id: preview
+    attributes:
+      label: 预览图链接 / Preview image URL
+      description: 可公开访问的 HTTP(S) 图片链接。 / Public HTTP(S) image URL.
+      placeholder: "https://example.com/preview.png"
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: 主题名称 / Theme name
+      placeholder: "My Komari Theme"
+    validations:
+      required: true
+
+  - type: input
+    id: short
+    attributes:
+      label: 主题唯一短名称 / Unique theme short name
+      description: 必须与 `komari-theme.json` 完全一致。 / Must exactly match `komari-theme.json`.
+      placeholder: "my-komari-theme"
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 主题版本 / Theme version
+      description: 必须与 `komari-theme.json` 完全一致。 / Must exactly match `komari-theme.json`.
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 主题描述 / Theme description
+      placeholder: "简要描述主题。 / Briefly describe the theme."
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: 作者 / Author
+      placeholder: "您的名称或组织 / Your name or organization"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: 我已确认 / I confirm
+      options:
+        - label: 主题包中没有恶意代码。 / The theme package contains no malicious code.
+          required: true
+        - label: 非 GitHub 托管的主题不会由 Actions 自动更新；请求更新需要发起 PR。 / Themes not hosted on GitHub are not automatically updated by Actions; updates require a pull request.
+          required: true

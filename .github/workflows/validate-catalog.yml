@@ -5,11 +5,21 @@ on:
     paths:
       - v1.json
       - scripts/check-catalog-order.mjs
+      - scripts/theme_submission.py
+      - tests/test_theme_submission.py
+      - .github/ISSUE_TEMPLATE/**
+      - .github/workflows/process-theme-submission.yml
+      - .github/workflows/close-theme-submission-issue.yml
       - .github/workflows/validate-catalog.yml
   pull_request:
     paths:
       - v1.json
       - scripts/check-catalog-order.mjs
+      - scripts/theme_submission.py
+      - tests/test_theme_submission.py
+      - .github/ISSUE_TEMPLATE/**
+      - .github/workflows/process-theme-submission.yml
+      - .github/workflows/close-theme-submission-issue.yml
       - .github/workflows/validate-catalog.yml
 
 jobs:
@@ -20,4 +30,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - run: node scripts/check-catalog-order.mjs
+      - run: python -m unittest discover -s tests -v
