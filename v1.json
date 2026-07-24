@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-24T02:34:57.394Z",
+  "updated_at": "2026-07-24T10:19:01.891Z",
   "themes": [
     {
       "name": {
@@ -145,6 +145,17 @@
       "preview": "https://raw.githubusercontent.com/stqfdyr/komari-theme-Lumina/refs/heads/main/preview.png",
       "download": "https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.6/Lumina-v1.1.6.zip",
       "sha256": "a8847c40ee59bc3ab8d9f9173f34d4aa8a2a1f51ada8b5075901a677352038a5"
+    },
+    {
+      "name": "Komari-Theme-LuminaPlus",
+      "short": "LuminaPlus",
+      "description": "Komari-Theme-LuminaPlus",
+      "version": "1.2.5",
+      "author": "shark&shanyang",
+      "url": "https://github.com/shanyang242/Komari-Theme-LuminaPlus",
+      "preview": "https://github.com/shanyang242/Komari-Theme-LuminaPlus/blob/main/docs/images/v1.1.9/overview-large-card-solid.png",
+      "download": "https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.2.5/Komari-Theme-LuminaPlus-v1.2.5.zip",
+      "sha256": "b94d77d519fd3a3e85cd810b3c18f37a3a0178681ed2333c6cc60fe531fbc021"
     },
     {
       "name": "Komari Mikus",
