@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-26T12:52:28.206Z",
+  "updated_at": "2026-07-26T23:27:32.429Z",
   "themes": [
     {
       "name": {
@@ -242,6 +242,17 @@
       "preview": "https://github.com/tonyliuzj/komari-next/raw/main/images/dark-theme.png",
       "download": "https://github.com/tonyliuzj/komari-next/releases/download/1.4.19/dist-release.zip",
       "sha256": "94c9fff9830266013ef2cbd02fe02a4773d3a88606f3b28b627a77b2ce3a11ae"
+    },
+    {
+      "name": "Nezha",
+      "short": "nezha",
+      "description": "Nezha Theme for Komari Monitor",
+      "version": "3.0.1",
+      "author": "Nomi",
+      "url": "https://github.com/nuomiiiii/nezha",
+      "preview": "https://raw.githubusercontent.com/nuomiiiii/nezha/main/preview.png",
+      "download": "https://github.com/nuomiiiii/nezha/releases/download/v3.0.1/nezha-v3.0.1.zip",
+      "sha256": "983ebe781e9c02b54c1294a4bc0b5612dd9a06202ad60c9b9541801818b79a5e"
     },
     {
       "name": {
