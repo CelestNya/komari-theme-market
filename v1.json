@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-25T23:48:07.926Z",
+  "updated_at": "2026-07-26T12:52:28.206Z",
   "themes": [
     {
       "name": {
@@ -32,37 +32,37 @@
         "zh-CN": "翡翠配色的 Komari 主题。",
         "en": "An emerald theme for Komari."
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": {
         "zh-CN": "Tokinx",
         "en": "Tokinx"
       },
       "url": "https://github.com/Tokinx/komari-theme-emerald",
       "preview": "https://raw.githubusercontent.com/Tokinx/komari-theme-emerald/refs/heads/master/docs/preview.png",
-      "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.4/komari-theme-emerald-build-b946e7b.zip",
-      "sha256": "b24355dcbdc348d17c9d8ec080d46caa8b880ee468d1760c6f25f5972348d045"
+      "download": "https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.5/komari-theme-emerald-build-ead2641.zip",
+      "sha256": "06c3f89fa706a5df5755a3901392bde805079257876272e017444eafbf0380a2"
     },
     {
       "name": "Komari Glass",
       "short": "Glass",
       "description": "一个轻量的Komari主题。",
-      "version": "1.0.0",
+      "version": "1.0.4",
       "author": "mengying",
       "url": "https://github.com/imengying/Komari-Glass",
       "preview": "https://raw.githubusercontent.com/imengying/Komari-Glass/refs/heads/main/public/preview.png",
-      "download": "https://github.com/imengying/Komari-Glass/releases/download/v1.0.0/komari-theme-glass-v1.0.0-6fc80d6.zip",
-      "sha256": "86dac5e2d477f087e3fbd3b015027e0200a9eff5fa73534b2d9cfcb8390ce1ff"
+      "download": "https://github.com/imengying/Komari-Glass/releases/download/v1.0.4/komari-theme-glass-v1.0.4-6ecaff2.zip",
+      "sha256": "da4b2514c745e4f6252b4aed497d868b646e01b99bf5ec5d39ed1321fc88001d"
     },
     {
       "name": "Komari Glassmorphism",
       "short": "Glassmorphism",
       "description": "A Glassmorphism theme for Komari",
-      "version": "3.2.0",
+      "version": "3.3.0",
       "author": "sanrokamlan",
       "url": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism",
       "preview": "https://raw.githubusercontent.com/sanrokamlan-prog/komari-theme-Glassmorphism/refs/heads/main/docs/preview.png",
-      "download": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism/releases/download/v3.2.0/komari-theme-Glassmorphism-build-ce11932.zip",
-      "sha256": "1b4fe7efb90b8014838f273ad5e11baad87bf67084c8c0485affbbcbb3632d78"
+      "download": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism/releases/download/v3.3.0/komari-theme-Glassmorphism-build-7d2c7e1.zip",
+      "sha256": "c5656046ad67f7f3cd9aa1076f55eedbab7c63796f76d0a0fbd377f528290359"
     },
     {
       "name": "ServerStatus-Hotaru",
@@ -172,12 +172,12 @@
       "name": "Komari-Theme-LuminaPlus",
       "short": "LuminaPlus",
       "description": "Komari-Theme-LuminaPlus",
-      "version": "1.2.5",
+      "version": "1.2.6",
       "author": "shark&shanyang",
       "url": "https://github.com/shanyang242/Komari-Theme-LuminaPlus",
       "preview": "https://raw.githubusercontent.com/shanyang242/Komari-Theme-LuminaPlus/refs/heads/main/docs/images/v1.1.9/overview-large-card-solid.png",
-      "download": "https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.2.5/Komari-Theme-LuminaPlus-v1.2.5.zip",
-      "sha256": "b94d77d519fd3a3e85cd810b3c18f37a3a0178681ed2333c6cc60fe531fbc021"
+      "download": "https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.2.6/Komari-Theme-LuminaPlus-v1.2.6.zip",
+      "sha256": "8439aeca19d57d57d7bedeee4f8d508b20df97b21d7e4fe1eb53b6242e8ff68f"
     },
     {
       "name": "Komari Mikus",
@@ -293,15 +293,15 @@
         "zh-CN": "暖色纸张与手写风格的编辑式 Komari 主题。",
         "en": "An editorial Komari theme with warm paper, serif type and handwritten accents."
       },
-      "version": "26.07.24",
+      "version": "26.07.25",
       "author": {
         "zh-CN": "wood",
         "en": "wood"
       },
       "url": "https://github.com/woodchen-ink/komari-paper",
       "preview": "https://raw.githubusercontent.com/woodchen-ink/komari-paper/refs/heads/main/preview.png",
-      "download": "https://github.com/woodchen-ink/komari-paper/releases/download/v26.07.24/komari-paper-v26.07.24.zip",
-      "sha256": "d57137abd39953960385d4a21f3356ae78e2e8b0e2aba48ed1d55c874b88b95f"
+      "download": "https://github.com/woodchen-ink/komari-paper/releases/download/v26.07.25/komari-paper-v26.07.25.zip",
+      "sha256": "94dd5f607752e36bc688960d20f860a8c5a77aaf734df5e476ce01eb88a5026f"
     },
     {
       "name": "Komari Theme PurCarte",
