@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-26T23:27:32.429Z",
+  "updated_at": "2026-07-27T09:07:52.129Z",
   "themes": [
     {
       "name": {
@@ -178,6 +178,17 @@
       "preview": "https://raw.githubusercontent.com/shanyang242/Komari-Theme-LuminaPlus/refs/heads/main/docs/images/v1.1.9/overview-large-card-solid.png",
       "download": "https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.2.6/Komari-Theme-LuminaPlus-v1.2.6.zip",
       "sha256": "8439aeca19d57d57d7bedeee4f8d508b20df97b21d7e4fe1eb53b6242e8ff68f"
+    },
+    {
+      "name": "Komari Material",
+      "short": "Material",
+      "description": "A Material Design 3 theme for Komari Monitor",
+      "version": "1.1.3",
+      "author": "Liebesfreud",
+      "url": "https://github.com/Liebesfreud/Komari-Material",
+      "preview": "https://raw.githubusercontent.com/Liebesfreud/Komari-Material/main/docs/preview.png",
+      "download": "https://github.com/Liebesfreud/Komari-Material/releases/download/release-v1.1.3/komari-theme-material-build-f6e214b.zip",
+      "sha256": "3499d3b7730d03675e673c64f27063dcba180dcfecde488e7ca32e6d44159b70"
     },
     {
       "name": "Komari Mikus",
