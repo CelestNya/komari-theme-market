@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-27T14:19:09.123Z",
+  "updated_at": "2026-07-28T07:56:44.314Z",
   "themes": [
     {
       "name": {
@@ -114,6 +114,17 @@
       "preview": "https://opengraph.githubassets.com/1/fanchengliu/komari-next-pro",
       "download": "https://github.com/fanchengliu/komari-next-pro/releases/download/v2.0.0/komari-next-pro-v2.0.0-komari-upload.zip",
       "sha256": "e557a5fe89eab5ec0b553f631511e499a01b611481e13771e8c5d3f8268b50ba"
+    },
+    {
+      "name": "Komari Carbon",
+      "short": "komari-theme-carbon",
+      "description": "IBM Carbon + IBM Plex style Komari monitoring theme",
+      "version": "0.1.0",
+      "author": "gengyue2468",
+      "url": "https://github.com/gengyue2468/komari-theme-carbon",
+      "preview": "https://raw.githubusercontent.com/gengyue2468/komari-theme-carbon/master/preview.png",
+      "download": "https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.0/komari-theme-carbon-v0.1.0.zip",
+      "sha256": "752d0687466ac0b6108cdca70cac30f17bec6ecf52da1c2562956ea376dbc3a0"
     },
     {
       "name": "Kumo for Komari",
