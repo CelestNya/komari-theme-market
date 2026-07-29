@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-28T07:56:44.314Z",
+  "updated_at": "2026-07-29T02:01:55.390Z",
   "themes": [
     {
       "name": {
@@ -46,12 +46,12 @@
       "name": "Komari Glass",
       "short": "Glass",
       "description": "一个轻量的Komari主题。",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "author": "mengying",
       "url": "https://github.com/imengying/Komari-Glass",
       "preview": "https://raw.githubusercontent.com/imengying/Komari-Glass/refs/heads/main/public/preview.png",
-      "download": "https://github.com/imengying/Komari-Glass/releases/download/v1.0.4/komari-theme-glass-v1.0.4-6ecaff2.zip",
-      "sha256": "da4b2514c745e4f6252b4aed497d868b646e01b99bf5ec5d39ed1321fc88001d"
+      "download": "https://github.com/imengying/Komari-Glass/releases/download/v1.0.5/komari-theme-glass-v1.0.5-56df872.zip",
+      "sha256": "c2ee5836e6a4df01ee191bff1df59d38fbd0f6ca2390eee34171b3119d1276d9"
     },
     {
       "name": "Komari Glassmorphism",
@@ -119,12 +119,12 @@
       "name": "Komari Carbon",
       "short": "komari-theme-carbon",
       "description": "IBM Carbon + IBM Plex style Komari monitoring theme",
-      "version": "0.1.0",
+      "version": "0.1.2",
       "author": "gengyue2468",
       "url": "https://github.com/gengyue2468/komari-theme-carbon",
       "preview": "https://raw.githubusercontent.com/gengyue2468/komari-theme-carbon/master/preview.png",
-      "download": "https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.0/komari-theme-carbon-v0.1.0.zip",
-      "sha256": "752d0687466ac0b6108cdca70cac30f17bec6ecf52da1c2562956ea376dbc3a0"
+      "download": "https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.2/komari-theme-carbon-v0.1.2.zip",
+      "sha256": "7c7f28f566909a15947e6b66e50d15ffa655c073865826c01d728dcf3721b5bf"
     },
     {
       "name": "Kumo for Komari",
