@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-29T02:01:55.390Z",
+  "updated_at": "2026-07-29T14:56:36.689Z",
   "themes": [
     {
       "name": {
@@ -74,6 +74,17 @@
       "preview": "https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/hotaru-theme.png",
       "download": "https://github.com/komari-monitor/komari-web/releases/download/1.0.3/komari-theme-hotaru.zip",
       "sha256": "b5d86521b2614b2ddd85ec049a80f2e9e739a1de77992fd43a15db049facd5d2"
+    },
+    {
+      "name": "Komari 1999",
+      "short": "komari-1999",
+      "description": "Neo-Brutalism themed dashboard for Komari Monitor",
+      "version": "1.0.1",
+      "author": "ricebucket",
+      "url": "https://github.com/r1cebucket/komari-theme-1999",
+      "preview": "https://github.com/r1cebucket/komari-theme-1999/raw/main/static/cover-image.png",
+      "download": "https://github.com/r1cebucket/komari-theme-1999/releases/download/v1.0.1/komari-theme-1999-adbf54b98b49f6162b207cc3aaf8df5909ae61b1.zip",
+      "sha256": "af44b99a0255f8e2b38880358d7fbc5efb8c83306a7e236eeaef84913ea907bc"
     },
     {
       "name": {
