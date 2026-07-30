@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-07-29T14:56:36.689Z",
+  "updated_at": "2026-07-30T03:23:01.745Z",
   "themes": [
     {
       "name": {
@@ -136,6 +136,17 @@
       "preview": "https://raw.githubusercontent.com/gengyue2468/komari-theme-carbon/master/preview.png",
       "download": "https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.2/komari-theme-carbon-v0.1.2.zip",
       "sha256": "7c7f28f566909a15947e6b66e50d15ffa655c073865826c01d728dcf3721b5bf"
+    },
+    {
+      "name": "Komari Home",
+      "short": "komarihome",
+      "description": "A Komari Web Theme with HomePage",
+      "version": "1.0.0",
+      "author": "mogumc",
+      "url": "https://github.com/mogumc/Komari-Home",
+      "preview": "https://raw.githubusercontent.com/mogumc/Komari-Home/main/preview.png",
+      "download": "https://github.com/mogumc/Komari-Home/releases/download/v1.0.0/komari-home-v1.0.0-c68b8f4.zip",
+      "sha256": "41190d93439031c441fb50a95d84816f6056a91ad653a78f33f36f69d2e54bdc"
     },
     {
       "name": "Kumo for Komari",
