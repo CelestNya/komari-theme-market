@@ -54,15 +54,11 @@ Choose the appropriate bilingual template on the [new issue page](../../issues/n
 
 ### 在 GitHub 中开源的主题 / Open-source GitHub Theme
 
-模板位置 / Template: [`submit-github-theme.yml`](./.github/ISSUE_TEMPLATE/submit-github-theme.yml)
-
 只需要填写 GitHub 仓库地址和预览图链接，并确认仓库公开且最新 Release 提供主题包。
 
 Only the GitHub repository URL and a preview image URL are required, together with confirmation that the repository is public and its latest Release provides a theme package.
 
 ### 非 GitHub 托管的主题 / Theme Hosted Outside GitHub
-
-模板位置 / Template: [`submit-external-theme.yml`](./.github/ISSUE_TEMPLATE/submit-external-theme.yml)
 
 需要填写项目地址、主题包下载地址、预览图、主题名称、主题唯一短名称、版本、描述和作者。项目地址和主题包地址不能是 GitHub 托管地址。
 
