@@ -6,7 +6,7 @@ name: Sync Mirror Catalog
 
 on:
   schedule:
-    - cron: "43 */6 * * *"
+    - cron: "0 0 * * *"   # 每天 00:00（零点）执行
   workflow_dispatch:
 
 permissions:
