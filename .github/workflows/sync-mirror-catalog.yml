@@ -1,0 +1,43 @@
+# 定时从上游拉取 v1.json，套上镜像前缀后写入 v1-mirror.json 并推回 main。
+# 客户端市场源填：{镜像前缀}https://raw.githubusercontent.com/CelestNya/komari-theme-market/main/v1-mirror.json
+# 镜像前缀可在仓库 Settings -> Variables 里改 MIRROR_PREFIX；未设置时脚本使用默认 gh-proxy.com。
+
+name: Sync Mirror Catalog
+
+on:
+  schedule:
+    - cron: "43 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mirror-catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream catalog
+        run: curl -fsSL https://raw.githubusercontent.com/komari-monitor/theme-market/main/v1.json -o /tmp/upstream-v1.json
+
+      - name: Build mirrored catalog
+        run: node scripts/build-mirror-catalog.mjs /tmp/upstream-v1.json --output=v1-mirror.json
+        env:
+          MIRROR_PREFIX: ${{ vars.MIRROR_PREFIX }}
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet -- v1-mirror.json; then
+            echo "No changes to v1-mirror.json"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add v1-mirror.json
+          git commit -m "chore: sync mirrored theme catalog from upstream"
+          git push

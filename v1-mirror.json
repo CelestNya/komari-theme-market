@@ -1,0 +1,446 @@
+{
+  "schema": 1,
+  "updated_at": "2026-08-09T13:15:53.760Z",
+  "themes": [
+    {
+      "name": "Komari Theme ASCII",
+      "short": "ASCII",
+      "description": "A terminal-style ASCII dashboard theme for Komari",
+      "version": "1.0",
+      "author": "faust",
+      "url": "https://github.com/facl/komari-ascii",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/facl/komari-ascii/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/facl/komari-ascii/releases/download/v1.0/komari-ascii.zip",
+      "sha256": "1215c4caf798dba5a0ab50754bb9a9c6c93b55e10ee224fa246ddb0301dae96a"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari Theme Commander",
+        "en": "Komari Theme Commander"
+      },
+      "short": "Commander",
+      "description": {
+        "zh-CN": "赛博朋克命令终端主题，带 3D 地球与 HUD 风格节点卡片。",
+        "en": "A cyberpunk command terminal theme with an interactive 3D globe and HUD-style node cards."
+      },
+      "version": "1.5.4",
+      "author": {
+        "zh-CN": "WayJam",
+        "en": "WayJam"
+      },
+      "url": "https://github.com/wayjam/komari-theme-commander",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/wayjam/komari-theme-commander/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/wayjam/komari-theme-commander/releases/download/v1.5.4/komari-theme-commander%401.5.4.zip",
+      "sha256": "67000fc43933547fbb22d8598532b03ccd3b1711e69b9c25536c2672fbeb2537"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari Emerald",
+        "en": "Komari Emerald"
+      },
+      "short": "Emerald",
+      "description": {
+        "zh-CN": "翡翠配色的 Komari 主题。",
+        "en": "An emerald theme for Komari."
+      },
+      "version": "1.0.9",
+      "author": {
+        "zh-CN": "Tokinx",
+        "en": "Tokinx"
+      },
+      "url": "https://github.com/Tokinx/komari-theme-emerald",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/Tokinx/komari-theme-emerald/refs/heads/master/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.9/komari-theme-emerald-build-2e5aec7.zip",
+      "sha256": "b56d7c7897ddbf85546f5bdd42428a9c78934a05e177aba30751a119410e01f0"
+    },
+    {
+      "name": "Komari Glass",
+      "short": "Glass",
+      "description": "一个轻量的Komari主题。",
+      "version": "1.0.7",
+      "author": "mengying",
+      "url": "https://github.com/imengying/Komari-Glass",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/imengying/Komari-Glass/refs/heads/main/public/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/imengying/Komari-Glass/releases/download/v1.0.7/komari-theme-glass-v1.0.7-bab70fa.zip",
+      "sha256": "88f8b87a45da1da217a96e14ae5ebbd36a80f16f25df5b1507c72326e83fc903"
+    },
+    {
+      "name": "Komari Glassmorphism",
+      "short": "Glassmorphism",
+      "description": "A Glassmorphism theme for Komari",
+      "version": "3.3.3",
+      "author": "sanrokamlan",
+      "url": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/sanrokamlan-prog/komari-theme-Glassmorphism/refs/heads/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism/releases/download/v3.3.3/komari-theme-Glassmorphism-build-63a1d01.zip",
+      "sha256": "01a1d0111b0405f0ffaa280070d77e0dfe46bdd728edf0dbe7396a93be3ff249"
+    },
+    {
+      "name": "ServerStatus-Hotaru",
+      "short": "Hotaru",
+      "description": "ServerStatus-Hotaru theme for Komari Monitor. This theme is no longer maintained.",
+      "version": "1.0.0",
+      "author": "cokemine & Claude Sonnet 4",
+      "url": "https://github.com/cokemine/ServerStatus-Hotaru",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/hotaru-theme.png",
+      "download": "https://gh-proxy.com/https://github.com/komari-monitor/komari-web/releases/download/1.0.3/komari-theme-hotaru.zip",
+      "sha256": "b5d86521b2614b2ddd85ec049a80f2e9e739a1de77992fd43a15db049facd5d2"
+    },
+    {
+      "name": "Komari 1999",
+      "short": "komari-1999",
+      "description": "Neo-Brutalism themed dashboard for Komari Monitor",
+      "version": "1.0.1",
+      "author": "ricebucket",
+      "url": "https://github.com/r1cebucket/komari-theme-1999",
+      "preview": "https://gh-proxy.com/https://github.com/r1cebucket/komari-theme-1999/raw/main/static/cover-image.png",
+      "download": "https://gh-proxy.com/https://github.com/r1cebucket/komari-theme-1999/releases/download/v1.0.1/komari-theme-1999-adbf54b98b49f6162b207cc3aaf8df5909ae61b1.zip",
+      "sha256": "af44b99a0255f8e2b38880358d7fbc5efb8c83306a7e236eeaef84913ea907bc"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari Deer",
+        "en": "Komari Deer"
+      },
+      "short": "komari-deer",
+      "description": {
+        "zh-CN": "鹿主题的 Komari Monitor 仪表盘。",
+        "en": "A deer-themed Komari Monitor dashboard."
+      },
+      "version": "0.1.0",
+      "author": {
+        "zh-CN": "DeerYang",
+        "en": "DeerYang"
+      },
+      "url": "https://github.com/DeerYang/komari-deer",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/DeerYang/komari-deer/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/DeerYang/komari-deer/releases/download/v0.1.0/komari-deer-v0.1.0.zip",
+      "sha256": "6b77652e3472cc0ac5ede3e10eaa511e3f7e3251181ef3f930ecf06dc0283b6f"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari Next Pro",
+        "en": "Komari Next Pro"
+      },
+      "short": "komari-next-pro",
+      "description": {
+        "zh-CN": "DStatus 风格界面，包含资产面板、IP 信息与流媒体解锁集成。",
+        "en": "A DStatus-style Komari theme with an asset dashboard, IP information and stream unlock integration."
+      },
+      "version": "2.0.0",
+      "author": {
+        "zh-CN": "LIU",
+        "en": "LIU"
+      },
+      "url": "https://github.com/fanchengliu/komari-next-pro",
+      "preview": "https://gh-proxy.com/https://opengraph.githubassets.com/1/fanchengliu/komari-next-pro",
+      "download": "https://gh-proxy.com/https://github.com/fanchengliu/komari-next-pro/releases/download/v2.0.0/komari-next-pro-v2.0.0-komari-upload.zip",
+      "sha256": "e557a5fe89eab5ec0b553f631511e499a01b611481e13771e8c5d3f8268b50ba"
+    },
+    {
+      "name": "Komari Carbon",
+      "short": "komari-theme-carbon",
+      "description": "IBM Carbon + IBM Plex style Komari monitoring theme",
+      "version": "0.1.5",
+      "author": "gengyue2468",
+      "url": "https://github.com/gengyue2468/komari-theme-carbon",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/gengyue2468/komari-theme-carbon/master/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.5/komari-theme-carbon-v0.1.5.zip",
+      "sha256": "3411048436d0cb02eb2075742265d15f9f4caffa28ca58757b318f8c76b5da36"
+    },
+    {
+      "name": "Komari Home",
+      "short": "komarihome",
+      "description": "A Komari Web Theme with HomePage",
+      "version": "1.0.1",
+      "author": "mogumc",
+      "url": "https://github.com/mogumc/Komari-Home",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/mogumc/Komari-Home/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/mogumc/Komari-Home/releases/download/v1.0.1/komari-home-v1.0.1-02694a5.zip",
+      "sha256": "636ece7cdf2426dfd4082be8dc759cc4d0d758cb10db93aca2a9637b463a05a7"
+    },
+    {
+      "name": "Kumo for Komari",
+      "short": "Kumo",
+      "description": "一个基于 Cloudflare Kumo 设计系统构建的简洁响应式 Komari 监控主题。",
+      "version": "1.3.2",
+      "author": "Yuanhhs",
+      "url": "https://github.com/yuanhhs/komari-theme-kumo",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/yuanhhs/komari-theme-kumo/main/.preview/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/yuanhhs/komari-theme-kumo/releases/download/1.3.2/komari-theme-kumo.zip",
+      "sha256": "52915687bfa3c5540a1faae6d37215106772badea042d5b971482227d77e248a"
+    },
+    {
+      "name": "LeoNetLab Observatory",
+      "short": "LeoNetLab",
+      "description": "A theme for Komari, based on Komari Emerald",
+      "version": "1.4.2",
+      "author": "LeoNetLab",
+      "url": "https://github.com/LeonR-92/komari-theme-leonetlab",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/LeonR-92/komari-theme-leonetlab/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/LeonR-92/komari-theme-leonetlab/releases/download/v1.4.2/komari-theme-leonetlab-build-v1.4.2.zip",
+      "sha256": "99635be5d326e5ef8180dc703433f4ea044678d67a19399a0b8cc4eeda45926f"
+    },
+    {
+      "name": "Komari Theme Light",
+      "short": "light",
+      "description": "A clean and simple light theme for Komari Monitor with multiple color variations.",
+      "version": "1.1.1",
+      "author": "uvexz",
+      "url": "https://github.com/uvexz/komari-theme-light",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/komari-monitor/komari-document/main/public/assets/theme-light.webp",
+      "download": "https://gh-proxy.com/https://github.com/uvexz/komari-theme-light/releases/download/v1.1.1/komari-theme-light.zip",
+      "sha256": "c4b9bdb72eccca0f101aa05557d81e7bf27b283832f796a51fff3f6134e10d26"
+    },
+    {
+      "name": {
+        "zh-CN": "Lumina",
+        "en": "Lumina"
+      },
+      "short": "Lumina",
+      "description": {
+        "zh-CN": "Komari Lumina 主题。",
+        "en": "A Komari Lumina theme."
+      },
+      "version": "1.1.6",
+      "author": {
+        "zh-CN": "shark 与 Codex",
+        "en": "shark & Codex"
+      },
+      "url": "https://github.com/stqfdyr/komari-theme-Lumina",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/stqfdyr/komari-theme-Lumina/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/stqfdyr/komari-theme-Lumina/releases/download/v1.1.6/Lumina-v1.1.6.zip",
+      "sha256": "a8847c40ee59bc3ab8d9f9173f34d4aa8a2a1f51ada8b5075901a677352038a5"
+    },
+    {
+      "name": "Komari-Theme-LuminaPlus",
+      "short": "LuminaPlus",
+      "description": "Komari-Theme-LuminaPlus",
+      "version": "1.2.8",
+      "author": "shark&shanyang",
+      "url": "https://github.com/shanyang242/Komari-Theme-LuminaPlus",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/shanyang242/Komari-Theme-LuminaPlus/refs/heads/main/docs/images/v1.1.9/overview-large-card-solid.png",
+      "download": "https://gh-proxy.com/https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.2.8/Komari-Theme-LuminaPlus-v1.2.8.zip",
+      "sha256": "07622b06faa4c365a0e61cb3922550fc48e770d30f1016302451e2cc7024daa3"
+    },
+    {
+      "name": "Komari Material",
+      "short": "Material",
+      "description": "A Material Design 3 theme for Komari Monitor",
+      "version": "1.1.7",
+      "author": "Liebesfreud",
+      "url": "https://github.com/Liebesfreud/Komari-Material",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/Liebesfreud/Komari-Material/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/Liebesfreud/Komari-Material/releases/download/release-v1.1.7/komari-theme-material-build-a011c14.zip",
+      "sha256": "e8c8667d798eea68eff8858d0505509edf81365c536c8cfd22fe427342a97c3a"
+    },
+    {
+      "name": "Komari Mikus",
+      "short": "Mikus",
+      "description": "A modern, elegant Komari monitoring theme with light/dark switching and responsive grid and table views.",
+      "version": "2.0.5",
+      "author": "Miku",
+      "url": "https://github.com/mikus-loli/komari-mikus",
+      "preview": "https://gh-proxy.com/https://image.mikus.ink/uploads/HayasakaAi/2026/07/05/d3eab55445a8.webp",
+      "download": "https://gh-proxy.com/https://github.com/mikus-loli/komari-mikus/releases/download/v2.0.5/komari-mikus-v2.0.5.zip",
+      "sha256": "5d40b35e6b39e96c5f4118e58174c776902b0311d28337256b52f00cb458591c"
+    },
+    {
+      "name": "MiStatus Komari",
+      "short": "MiStatus",
+      "description": "基于 Next.js 的现代化服务器监控主题",
+      "version": "2.6.0",
+      "author": "imzyb",
+      "url": "https://github.com/imzyb/MiStatus-Komari",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/imzyb/MiStatus-Komari/master/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/imzyb/MiStatus-Komari/releases/download/v2.6.0/mistatus-theme-v26.07.11-b265be5.zip",
+      "sha256": "581f98b26b7f7d0474362e36b7d00cc29a29c29d2ad2a624d680dd99f2e6a7bf"
+    },
+    {
+      "name": "Komari Web Mochi",
+      "short": "Mochi",
+      "description": "Another Komari Web Theme",
+      "version": "1.1.8",
+      "author": "Mochi DEV Team",
+      "url": "https://github.com/svnmoe/komari-web-mochi",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/svnmoe/komari-web-mochi/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/svnmoe/komari-web-mochi/releases/download/v1.1.8/komari-theme-v26.06.07-aaba47f.zip",
+      "sha256": "60e2f2e42ae8a8921972adeec74c5920e7501d1c6ca3a070149ecf01f7e092b4"
+    },
+    {
+      "name": "Komari Naive",
+      "short": "Naive",
+      "description": "A Naive UI theme for Komari.",
+      "version": "1.1.2",
+      "author": "lyimoexiao",
+      "url": "https://github.com/lyimoexiao/komari-theme-naive",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/lyimoexiao/komari-theme-naive/master/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/lyimoexiao/komari-theme-naive/releases/download/release-v1.1.2/komari-theme-naive-build-ac5b98d.zip",
+      "sha256": "0162cbb775e86fd900f49980ccb0f37335015dca27a22709313dbbfb7421a12d"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari NanoMuse 面板",
+        "en": "Komari NanoMuse Panel"
+      },
+      "short": "NanoMuse",
+      "description": {
+        "zh-CN": "电子二次元监控面板主题，融合动漫 HUD 与稳定性面板。",
+        "en": "An anime HUD and light sci-fi Komari dashboard with a built-in stability panel."
+      },
+      "version": "1.3.1",
+      "author": {
+        "zh-CN": "Miuler",
+        "en": "Miuler"
+      },
+      "url": "https://github.com/saladinxp/komari-nano-muse",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/saladinxp/komari-nano-muse/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/saladinxp/komari-nano-muse/releases/download/v1.3.1/komari-nano-muse-v1.3.1.zip",
+      "sha256": "05107dcead33196257751894810edf139740e0846034b2087c89b2d859213d2a"
+    },
+    {
+      "name": "Komari Next",
+      "short": "next",
+      "description": "Next.js theme for Komari Monitor with multiple layouts, color schemes and status views.",
+      "version": "1.4.19",
+      "author": "tonyliuzj",
+      "url": "https://github.com/tonyliuzj/komari-next",
+      "preview": "https://gh-proxy.com/https://github.com/tonyliuzj/komari-next/raw/main/images/dark-theme.png",
+      "download": "https://gh-proxy.com/https://github.com/tonyliuzj/komari-next/releases/download/1.4.19/dist-release.zip",
+      "sha256": "94c9fff9830266013ef2cbd02fe02a4773d3a88606f3b28b627a77b2ce3a11ae"
+    },
+    {
+      "name": "Nezha",
+      "short": "nezha",
+      "description": "Nezha Theme for Komari Monitor",
+      "version": "3.1.1",
+      "author": "Nomi",
+      "url": "https://github.com/nuomiiiii/nezha",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/nuomiiiii/nezha/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/nuomiiiii/nezha/releases/download/v3.1.1/nezha-v3.1.1.zip",
+      "sha256": "8552e1455325fe8ca5bca10644d91ffff1d716c1197380fa21c8bdc8f96a5784"
+    },
+    {
+      "name": {
+        "zh-CN": "nezha-BITJEBE",
+        "en": "nezha-BITJEBE"
+      },
+      "short": "nezha-BITJEBE",
+      "description": {
+        "zh-CN": "由 Nezha Dash V1 与 nezha-dash 衍生的 Komari 主题。",
+        "en": "A Komari theme derived from Nezha Dash V1 and nezha-dash."
+      },
+      "version": "1.1.7",
+      "author": {
+        "zh-CN": "BITJEBE",
+        "en": "BITJEBE"
+      },
+      "url": "https://github.com/BITJEBE/nezha-BITJEBE",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/BITJEBE/nezha-BITJEBE/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/BITJEBE/nezha-BITJEBE/releases/download/v1.1.7/nezha-dash-theme-v1.1.7.zip",
+      "sha256": "3cb85f96581c6caf8e85c6bdec0c1f6bd1df37e5a16b8326a39ab6c8b9678936"
+    },
+    {
+      "name": {
+        "zh-CN": "Nezha Minimal",
+        "en": "Nezha Minimal"
+      },
+      "short": "nezha-minimal",
+      "description": {
+        "zh-CN": "纯色极简风格 Komari 主题。",
+        "en": "A solid-color minimal theme for Komari."
+      },
+      "version": "1.1.20",
+      "author": {
+        "zh-CN": "Komari Community",
+        "en": "Komari Community"
+      },
+      "url": "https://github.com/zleywb/nezha-minimal",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/zleywb/nezha-minimal/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/zleywb/nezha-minimal/releases/download/V1.1.20/nezha-minimal.zip",
+      "sha256": "1d8193d03f67e147abe2a4fc161dacb22499ed8db76e93ec7fdd54f2dabde8c2"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari Paper",
+        "en": "Komari Paper"
+      },
+      "short": "paper",
+      "description": {
+        "zh-CN": "暖色纸张与手写风格的编辑式 Komari 主题。",
+        "en": "An editorial Komari theme with warm paper, serif type and handwritten accents."
+      },
+      "version": "26.07.25",
+      "author": {
+        "zh-CN": "wood",
+        "en": "wood"
+      },
+      "url": "https://github.com/woodchen-ink/komari-paper",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/woodchen-ink/komari-paper/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/woodchen-ink/komari-paper/releases/download/v26.07.25/komari-paper-v26.07.25.zip",
+      "sha256": "94dd5f607752e36bc688960d20f860a8c5a77aaf734df5e476ce01eb88a5026f"
+    },
+    {
+      "name": "Komari Theme PurCarte",
+      "short": "PurCarte",
+      "description": "A frosted glass theme for Komari.",
+      "version": "1.2.5",
+      "author": "Montia & Gemini",
+      "url": "https://github.com/Montia37/komari-theme-purcarte",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/Montia37/komari-theme-purcarte/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/Montia37/komari-theme-purcarte/releases/download/v1.2.5/komari-theme-purcarte.zip",
+      "sha256": "a63d5294d92fb5ed1ff66134ccca5d7b0fb2f76d9ec258ba41e5e46dd33a9c31"
+    },
+    {
+      "name": {
+        "zh-CN": "Komari Theme PurCarte Plus",
+        "en": "Komari Theme PurCarte Plus"
+      },
+      "short": "PurCarte-Plus",
+      "description": {
+        "zh-CN": "一款为 Komari 设计的磨砂玻璃风格个性化增强版主题",
+        "en": "An enhanced, personalized frosted glass theme for Komari."
+      },
+      "version": "2026.08.01.1",
+      "author": {
+        "zh-CN": "YannickYoung 与 Codex",
+        "en": "YannickYoung & Codex"
+      },
+      "url": "https://github.com/YoungYannick/komari-theme-purcarte-plus",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/YoungYannick/komari-theme-purcarte-plus/master/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/YoungYannick/komari-theme-purcarte-plus/releases/download/v2026.08.01.1/komari-theme-purcarte-plus.zip",
+      "sha256": "83ac3d7f20bfd04ff4537b296b545a4517f6db08aa64b4d385746b4231051052"
+    },
+    {
+      "name": {
+        "zh-CN": "岚 (Ran)",
+        "en": "Ran"
+      },
+      "short": "ran",
+      "description": {
+        "zh-CN": "精密金工质感的 Komari 主题，提供深浅多配色。",
+        "en": "A precision-machined hi-fi inspired Komari theme with multiple light and dark colorways."
+      },
+      "version": "2.1.2",
+      "author": {
+        "zh-CN": "Miuler",
+        "en": "Miuler"
+      },
+      "url": "https://github.com/saladinxp/komari-ran-theme",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/saladinxp/komari-ran-theme/refs/heads/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/saladinxp/komari-ran-theme/releases/download/v2.1.2/komari-ran-theme-v2.1.2.zip",
+      "sha256": "4ea93085644626a5208fcd66204aab7c9da6f910214881b903825f91cd760791"
+    },
+    {
+      "name": "ServerSentry Komari",
+      "short": "ServerSentry",
+      "description": "基于 Next.js 的现代化服务器监控主题。",
+      "version": "1.0.4",
+      "author": "Asahina1096",
+      "url": "https://github.com/Asahina1096/ServerSentry-Komari",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/ServerSentry-theme.webp",
+      "download": "https://gh-proxy.com/https://github.com/Asahina1096/ServerSentry-Komari/releases/download/1.0.4/serversentry-theme-1.0.4.zip",
+      "sha256": "820d0de25082ae8cf73e60e91c2dac78bbd32da60c3f0c92e88e3cd2b9a8646c"
+    }
+  ]
+}
