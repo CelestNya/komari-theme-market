@@ -1,3 +1,19 @@
+> **免责声明 / Disclaimer**
+>
+> 本仓库是 [komari-monitor/theme-market](https://github.com/komari-monitor/theme-market) 的个人 fork，仅用于提供镜像目录，与上游无关。
+>
+> This repository is a personal fork of [komari-monitor/theme-market](https://github.com/komari-monitor/theme-market). It exists solely to provide a mirrored catalog and is not affiliated with the upstream project.
+>
+> 目录中的 `v1-mirror.json` 由 GitHub Actions 自动从上游同步生成，把主题的下载地址和预览图替换为第三方镜像代理地址，并非官方文件。镜像代理属于第三方服务，不保证可用性或内容完整性；下载仍会经过 SHA-256 校验，校验失败时客户端会拒绝安装。使用镜像目录遇到的问题请勿向上游反馈。
+>
+> The `v1-mirror.json` in this repository is generated automatically by a GitHub Action synced from upstream, rewriting theme download and preview URLs to third-party mirror proxies. It is not an official file. Mirror proxies are third-party services with no guarantee of availability or content integrity; downloads still pass SHA-256 verification, and the client refuses to install on mismatch. Do not report issues with the mirrored catalog to upstream.
+
+---
+
+# 以下是官方 README / Below is the official README
+
+---
+
 # Komari Theme Market
 
 Komari Theme Market 是 Komari 内置主题市场使用的默认主题目录。主题包仍由主题作者托管，市场目录保存主题元数据、下载地址和 SHA-256 校验值。
