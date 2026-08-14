@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-08-09T13:15:53.760Z",
+  "updated_at": "2026-08-13T23:51:01.890Z",
   "themes": [
     {
       "name": "Komari Theme ASCII",
@@ -54,6 +54,17 @@
       "sha256": "b56d7c7897ddbf85546f5bdd42428a9c78934a05e177aba30751a119410e01f0"
     },
     {
+      "name": "Komari Emerald Cazi",
+      "short": "Emerald-Cazi",
+      "description": "A configurable multi-task Komari theme customized for cazi.cc",
+      "version": "1.0.0",
+      "author": "cazi-cc",
+      "url": "https://github.com/cazi-cc/komari-theme-emerald",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/cazi-cc/komari-theme-emerald/master/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/cazi-cc/komari-theme-emerald/releases/download/v1.0.0/komari-theme-emerald.zip",
+      "sha256": "4058d897ebdc2dfb859d92867a5145c7db7c7d4e9cfc2a7c18356437b578cb2a"
+    },
+    {
       "name": "Komari Glass",
       "short": "Glass",
       "description": "一个轻量的Komari主题。",
@@ -68,12 +79,12 @@
       "name": "Komari Glassmorphism",
       "short": "Glassmorphism",
       "description": "A Glassmorphism theme for Komari",
-      "version": "3.3.3",
+      "version": "3.3.5",
       "author": "sanrokamlan",
       "url": "https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/sanrokamlan-prog/komari-theme-Glassmorphism/refs/heads/main/docs/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism/releases/download/v3.3.3/komari-theme-Glassmorphism-build-63a1d01.zip",
-      "sha256": "01a1d0111b0405f0ffaa280070d77e0dfe46bdd728edf0dbe7396a93be3ff249"
+      "download": "https://gh-proxy.com/https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism/releases/download/v3.3.5/komari-theme-Glassmorphism-build-e9a7238.zip",
+      "sha256": "ff9127ee7ebd87efeb9dd4ad58b875da53d05ccc88c6f95181ac13392ed20a98"
     },
     {
       "name": "ServerStatus-Hotaru",
@@ -141,12 +152,12 @@
       "name": "Komari Carbon",
       "short": "komari-theme-carbon",
       "description": "IBM Carbon + IBM Plex style Komari monitoring theme",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "author": "gengyue2468",
       "url": "https://github.com/gengyue2468/komari-theme-carbon",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/gengyue2468/komari-theme-carbon/master/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.5/komari-theme-carbon-v0.1.5.zip",
-      "sha256": "3411048436d0cb02eb2075742265d15f9f4caffa28ca58757b318f8c76b5da36"
+      "download": "https://gh-proxy.com/https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.6/komari-theme-carbon-v0.1.6.zip",
+      "sha256": "f34b0aa42e12b5f7a2e25996c3f288585417277cdfefac51d2cd4ea72897a07c"
     },
     {
       "name": "Komari Home",
@@ -174,12 +185,12 @@
       "name": "Komari Observatory",
       "short": "LeoNetLab",
       "description": "A soft, responsive observatory theme for Komari with live telemetry, globe and Ping analytics.",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "author": "LeoNetLab",
       "url": "https://github.com/LeonR-92/komari-theme-leonetlab",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/LeonR-92/komari-theme-leonetlab/main/docs/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/LeonR-92/komari-theme-leonetlab/releases/download/v1.4.2/komari-theme-leonetlab-build-v1.4.2.zip",
-      "sha256": "99635be5d326e5ef8180dc703433f4ea044678d67a19399a0b8cc4eeda45926f"
+      "download": "https://gh-proxy.com/https://github.com/LeonR-92/komari-theme-leonetlab/releases/download/v1.4.3/komari-theme-leonetlab-build-v1.4.3.zip",
+      "sha256": "df8d6a1dcb99d43db2909b9acee7ecadc36e8bdb40540568a150efd884da5224"
     },
     {
       "name": "Komari Theme Light",
@@ -227,12 +238,12 @@
       "name": "Komari Material",
       "short": "Material",
       "description": "A Material Design 3 theme for Komari Monitor",
-      "version": "1.1.7",
+      "version": "1.2.1",
       "author": "Liebesfreud",
       "url": "https://github.com/Liebesfreud/Komari-Material",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/Liebesfreud/Komari-Material/main/docs/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/Liebesfreud/Komari-Material/releases/download/release-v1.1.7/komari-theme-material-build-a011c14.zip",
-      "sha256": "e8c8667d798eea68eff8858d0505509edf81365c536c8cfd22fe427342a97c3a"
+      "download": "https://gh-proxy.com/https://github.com/Liebesfreud/Komari-Material/releases/download/release-v1.2.1/komari-theme-material-build-6f5a7cc.zip",
+      "sha256": "6fdc1d6c2f745a770393589c2807c8dd7e415113c96727e96c7b7edff8df3863"
     },
     {
       "name": "Komari Mikus",
@@ -313,12 +324,12 @@
       "name": "Nezha",
       "short": "nezha",
       "description": "Nezha Theme for Komari Monitor",
-      "version": "3.1.1",
+      "version": "3.1.2",
       "author": "Nomi",
       "url": "https://github.com/nuomiiiii/nezha",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/nuomiiiii/nezha/main/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/nuomiiiii/nezha/releases/download/v3.1.1/nezha-v3.1.1.zip",
-      "sha256": "8552e1455325fe8ca5bca10644d91ffff1d716c1197380fa21c8bdc8f96a5784"
+      "download": "https://gh-proxy.com/https://github.com/nuomiiiii/nezha/releases/download/v3.1.2/nezha-v3.1.2.zip",
+      "sha256": "503e43886eb424f1360b92b08dc1ac896ce1ba9f7609b4f7b40b2ef29664027c"
     },
     {
       "name": {
@@ -441,6 +452,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/ServerSentry-theme.webp",
       "download": "https://gh-proxy.com/https://github.com/Asahina1096/ServerSentry-Komari/releases/download/1.0.4/serversentry-theme-1.0.4.zip",
       "sha256": "820d0de25082ae8cf73e60e91c2dac78bbd32da60c3f0c92e88e3cd2b9a8646c"
+    },
+    {
+      "name": "Slate",
+      "short": "Slate",
+      "description": "A restrained Komari theme with a table-first home",
+      "version": "0.1.2",
+      "author": "DouDou",
+      "url": "https://github.com/xkrfer/komari-theme-slate",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/xkrfer/komari-theme-slate/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/xkrfer/komari-theme-slate/releases/download/v0.1.2/komari-theme-slate-v0.1.2.zip",
+      "sha256": "8bd48ebfb2ab9ff32b956b1f955d0ddbadf8db776fb6aebb246a5223f209f5a9"
     }
   ]
 }
