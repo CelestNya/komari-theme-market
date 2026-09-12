@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-04T09:10:12.683Z",
+  "updated_at": "2026-09-11T07:02:16.778Z",
   "themes": [
     {
       "name": "Adhesive Note",
@@ -12,6 +12,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/stqfdyr/komari-theme-adhesive-note/main/preview.webp",
       "download": "https://gh-proxy.com/https://github.com/stqfdyr/komari-theme-adhesive-note/releases/download/v1.0.0/komari-theme-adhesivenote-v1.0.0.zip",
       "sha256": "94f69c657413e7b3204cfea0bce94f1ee5deb1f897364664b27367b592d49c80"
+    },
+    {
+      "name": "爱弥斯 / Aemeath",
+      "short": "aemeath",
+      "description": "基于 Vue 3 的爱弥斯主题监控面板，包含响应式实时状态、平滑过渡与多端适配。",
+      "version": "1.9.0",
+      "author": "Ronana / 夜灭",
+      "url": "https://github.com/adminsama/Aemeath",
+      "preview": "https://gh-proxy.com/https://gov.yachts/themes/aemeath/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/adminsama/Aemeath/releases/download/v1.9.0/aemeath-komari-theme-v1.9.0.zip",
+      "sha256": "a9192457a3107f157fa98a2781a3d5e113ebbc2fc0fb8c45a1d49b0f8df655f0"
     },
     {
       "name": "Komari Animal Island",
@@ -34,6 +45,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/facl/komari-ascii/main/preview.png",
       "download": "https://gh-proxy.com/https://github.com/facl/komari-ascii/releases/download/v1.0/komari-ascii.zip",
       "sha256": "1215c4caf798dba5a0ab50754bb9a9c6c93b55e10ee224fa246ddb0301dae96a"
+    },
+    {
+      "name": "blueprint",
+      "short": "blueprint",
+      "description": "A Blueprint theme for Komari",
+      "version": "0.1.19",
+      "author": "jacob-bytes",
+      "url": "https://github.com/jacob-bytes/komari-theme-blueprint",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/jacob-bytes/komari-theme-blueprint/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/jacob-bytes/komari-theme-blueprint/releases/download/v0.1.19/blueprint-build-f4bbf9f.zip",
+      "sha256": "87387d05a217a0a7daf63f44485fe5a93ccfbc5de15e0f150fa2f638f51ad877"
     },
     {
       "name": "Komari Butterfly",
@@ -76,15 +98,15 @@
         "zh-CN": "翡翠配色的 Komari 主题。",
         "en": "An emerald theme for Komari."
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "author": {
         "zh-CN": "Tokinx",
         "en": "Tokinx"
       },
       "url": "https://github.com/Tokinx/komari-theme-emerald",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/Tokinx/komari-theme-emerald/refs/heads/master/docs/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.11/komari-theme-emerald-build-b7baf45.zip",
-      "sha256": "36b2003abdb690eea4939e94e39b22c2c657ab7ac388a41425f5b579a3153c06"
+      "download": "https://gh-proxy.com/https://github.com/Tokinx/komari-theme-emerald/releases/download/v1.0.12/komari-theme-emerald-build-c2c5e88.zip",
+      "sha256": "ff4bae3150d765c1bd39332a9882fefe45b0b648cc9fd76585d63208969d3e25"
     },
     {
       "name": "Komari Emerald Cazi",
@@ -96,6 +118,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/cazi-cc/komari-theme-emerald/master/docs/preview.png",
       "download": "https://gh-proxy.com/https://github.com/cazi-cc/komari-theme-emerald/releases/download/v1.0.0/komari-theme-emerald.zip",
       "sha256": "4058d897ebdc2dfb859d92867a5145c7db7c7d4e9cfc2a7c18356437b578cb2a"
+    },
+    {
+      "name": "Emerald Globe Pro",
+      "short": "emerald-globe-pro",
+      "description": "面向 Komari 的全球探针监控主题，集成资源分析、流量趋势与风险概览",
+      "version": "1.0.6",
+      "author": "Davies_Allen",
+      "url": "https://github.com/allen0039/komari-theme-emerald-globe-pro",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/allen0039/komari-theme-emerald-globe-pro/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/allen0039/komari-theme-emerald-globe-pro/releases/download/v1.0.6/komari-theme-emerald-globe-pro-build-2008cb9.zip",
+      "sha256": "557e9643cdf9a317c60669772d96abccc7ef31e22d232aac7a3460956a22ee39"
     },
     {
       "name": "Komari Glass",
@@ -140,6 +173,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/komari-monitor/public/refs/heads/main/images/hotaru-theme.png",
       "download": "https://gh-proxy.com/https://github.com/komari-monitor/komari-web/releases/download/1.0.3/komari-theme-hotaru.zip",
       "sha256": "b5d86521b2614b2ddd85ec049a80f2e9e739a1de77992fd43a15db049facd5d2"
+    },
+    {
+      "name": "ink",
+      "short": "ink",
+      "description": "A minimal ink theme for Komari (deep navy-black, shadcn-inspired)",
+      "version": "0.6.9",
+      "author": "jacob-bytes",
+      "url": "https://github.com/jacob-bytes/komari-theme-ink",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/jacob-bytes/komari-theme-ink/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/jacob-bytes/komari-theme-ink/releases/download/v0.6.9/ink-build-2d80040.zip",
+      "sha256": "8046a5db5e2bf9083d9f3942e59a7478c23e5dcc0d131e8ffefc6a4824dcc311"
     },
     {
       "name": "junimo",
@@ -218,12 +262,12 @@
       "name": "Komari Carbon",
       "short": "komari-theme-carbon",
       "description": "IBM Carbon + IBM Plex style Komari monitoring theme",
-      "version": "0.1.9",
+      "version": "0.1.9-enhance1",
       "author": "gengyue2468",
       "url": "https://github.com/gengyue2468/komari-theme-carbon",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/gengyue2468/komari-theme-carbon/master/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.9/komari-theme-carbon-v0.1.9.zip",
-      "sha256": "2fd0652057b36721dfae4834db0c9e118019f86164e7813b0a64a2490e41c80f"
+      "download": "https://gh-proxy.com/https://github.com/gengyue2468/komari-theme-carbon/releases/download/v0.1.9-enhance1/komari-theme-carbon-v0.1.9-enhance1.zip",
+      "sha256": "85793f76481e775eb1c2bd59b0260f716e452fa9dc7686719b129c9d7dec9c8e"
     },
     {
       "name": "Komari Home",
@@ -304,12 +348,12 @@
       "name": "Komari-Theme-LuminaPlus",
       "short": "LuminaPlus",
       "description": "Komari-Theme-LuminaPlus",
-      "version": "1.3.1",
+      "version": "1.3.3",
       "author": "shark&shanyang",
       "url": "https://github.com/shanyang242/Komari-Theme-LuminaPlus",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/shanyang242/Komari-Theme-LuminaPlus/refs/heads/main/docs/images/v1.1.9/overview-large-card-solid.png",
-      "download": "https://gh-proxy.com/https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.3.1/Komari-Theme-LuminaPlus-v1.3.1.zip",
-      "sha256": "fc342b15235115ea0837352e652cf2ec3d2b3fcdb2945dfe4555f89eed56fe1f"
+      "download": "https://gh-proxy.com/https://github.com/shanyang242/Komari-Theme-LuminaPlus/releases/download/v1.3.3/Komari-Theme-LuminaPlus-v1.3.3.zip",
+      "sha256": "f421ab11faf2c275695f00804d97925cb007a18f7ca4921134cb1794248a2549"
     },
     {
       "name": "Komari Material",
@@ -567,12 +611,12 @@
       "name": "Slate",
       "short": "Slate",
       "description": "A restrained Komari theme with a table-first home",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "author": "DouDou",
       "url": "https://github.com/xkrfer/komari-theme-slate",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/xkrfer/komari-theme-slate/main/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/xkrfer/komari-theme-slate/releases/download/v0.1.10/komari-theme-slate-v0.1.10.zip",
-      "sha256": "ae352998875284b1a0c2634d2fbe8e91294e17f8b7b233ddd1b39ec12a892e38"
+      "download": "https://gh-proxy.com/https://github.com/xkrfer/komari-theme-slate/releases/download/v0.1.11/komari-theme-slate-v0.1.11.zip",
+      "sha256": "66ba1d6f040d2a8f0d011e6fde89fa48ce4d4e0210fbc0e78c884c5af2767caa"
     },
     {
       "name": "Transit",
@@ -589,12 +633,12 @@
       "name": "Komari Zen",
       "short": "Zen",
       "description": "基于极简主义设计理念的 Komari 主题。",
-      "version": "1.0.4",
+      "version": "1.0.6",
       "author": "qwer-xyz",
       "url": "https://github.com/qwer-xyz/komari-theme-zen",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/qwer-xyz/komari-theme-zen/refs/heads/main/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/qwer-xyz/komari-theme-zen/releases/download/v1.0.4/zen-theme-v1.0.4.zip",
-      "sha256": "057cfa15486a93c83f5840e25fe69639d242e7c778f4e70e620ca639bf73b242"
+      "download": "https://gh-proxy.com/https://github.com/qwer-xyz/komari-theme-zen/releases/download/v1.0.6/zen-theme-v1.0.6.zip",
+      "sha256": "85c0f2e59f3dc4a7fbae054864ce8e09b3a832284d112dbe05278a01ac52ba63"
     }
   ]
 }
