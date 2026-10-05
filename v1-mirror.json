@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-09-29T22:16:48.907Z",
+  "updated_at": "2026-10-04T14:09:29.619Z",
   "themes": [
     {
       "name": "Adhesive Note",
@@ -34,6 +34,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/biliblihuorong/komari-theme-aero/v1.4.1/preview.png",
       "download": "https://gh-proxy.com/https://github.com/biliblihuorong/komari-theme-aero/releases/download/v1.4.5/aero.zip",
       "sha256": "fd27cf3e0dae2bad8d58a31a3ed303a101816cc43626a7b9a0a1c6fb19758233"
+    },
+    {
+      "name": "Komari Mercedes-AMG",
+      "short": "amg-race-control",
+      "description": "Mercedes-AMG PETRONAS F1 Race Control 风格的 Komari 监控主题 / Mercedes-AMG PETRONAS F1 Race Control theme for Komari Monitor",
+      "version": "1.1.0",
+      "author": "Jett Hayes",
+      "url": "https://github.com/JettHayes/Komari-Mercedes-AMG",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/JettHayes/Komari-Mercedes-AMG/main/public/assets/example1l.png",
+      "download": "https://gh-proxy.com/https://github.com/JettHayes/Komari-Mercedes-AMG/releases/download/v1.1.0/Komari-Mercedes-AMG-theme.zip",
+      "sha256": "7d813a61d0436e4c5db01854b55221a788ee332912d493c0cd30843ecf762d5a"
     },
     {
       "name": "Komari Animal Island",
@@ -156,12 +167,12 @@
       "name": "Emerald Globe Pro",
       "short": "emerald-globe-pro",
       "description": "面向 Komari 的全球探针监控主题，集成资源分析、流量趋势与风险概览",
-      "version": "1.0.11",
+      "version": "1.0.13",
       "author": "Davies_Allen",
       "url": "https://github.com/allen0039/komari-theme-emerald-globe-pro",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/allen0039/komari-theme-emerald-globe-pro/main/docs/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/allen0039/komari-theme-emerald-globe-pro/releases/download/v1.0.11/komari-theme-emerald-globe-pro-build-4f2cf49.zip",
-      "sha256": "fb0238104539c74813901ada832e43fdc254e6fce46f201787d1c205d31e2dd3"
+      "download": "https://gh-proxy.com/https://github.com/allen0039/komari-theme-emerald-globe-pro/releases/download/v1.0.13/komari-theme-emerald-globe-pro-build-b69e39c.zip",
+      "sha256": "3554ee3e1af05bd04726dea8b9554ed645e98391f163b2e031002787f30c6330"
     },
     {
       "name": "Komari Glass",
@@ -639,6 +650,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/saladinxp/komari-ran-theme/refs/heads/main/preview.png",
       "download": "https://gh-proxy.com/https://github.com/saladinxp/komari-ran-theme/releases/download/v2.1.2/komari-ran-theme-v2.1.2.zip",
       "sha256": "4ea93085644626a5208fcd66204aab7c9da6f910214881b903825f91cd760791"
+    },
+    {
+      "name": "Komari-Theme-SAO",
+      "short": "SAO",
+      "description": "Komari Theme SAO Edition",
+      "version": "1.0.10",
+      "author": "WAOR",
+      "url": "https://github.com/WAOR/Komari-Theme-SAO",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/WAOR/Komari-Theme-SAO/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/WAOR/Komari-Theme-SAO/releases/download/v1.0.10/Komari-Theme-SAO-v1.0.10.zip",
+      "sha256": "5883a0f1a73e52c115d7bb0be535c2d7b90fa4a101c1720f1bbbbb78b9d481c8"
     },
     {
       "name": "ServerSentry Komari",
