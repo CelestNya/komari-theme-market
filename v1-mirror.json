@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-16T00:43:27.160Z",
+  "updated_at": "2026-10-20T02:09:31.011Z",
   "themes": [
     {
       "name": "Adhesive Note",
@@ -184,6 +184,28 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/allen0039/komari-theme-emerald-globe-pro/main/docs/preview.png",
       "download": "https://gh-proxy.com/https://github.com/allen0039/komari-theme-emerald-globe-pro/releases/download/v1.0.13/komari-theme-emerald-globe-pro-build-b69e39c.zip",
       "sha256": "3554ee3e1af05bd04726dea8b9554ed645e98391f163b2e031002787f30c6330"
+    },
+    {
+      "name": "Komari Emerald Insights · 翡翠洞察",
+      "short": "emerald-insights",
+      "description": "现代翡翠风格全功能监控主题：集成资源概览大盘、30天在线率、IP质量与流媒体/AI解锁一览（支持查看详细评分与能力）、流量重置趋势以及节点成本与续费分析。 / Modern emerald theme featuring Resource Insights, 30-day availability, IP quality & streaming unlock overview, traffic reset trends, and VPS cost/renewal analytics.",
+      "version": "2.0.3",
+      "author": "Chen017",
+      "url": "https://github.com/Chen017/komari-theme-emerald-insights",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/Chen017/komari-theme-emerald-insights/master/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/Chen017/komari-theme-emerald-insights/releases/download/v2.0.3/komari-theme-emerald-insights.zip",
+      "sha256": "db3a75ce62ea37b332a76102431e0b33157120a48a0e8d6244ba91a1983fbe91"
+    },
+    {
+      "name": "Glassmorphism Enhanced",
+      "short": "Enhanced",
+      "description": "Glassmorphism Enhanced with three-network latency/loss panels and automatic globe arcs",
+      "version": "1.1.1",
+      "author": "casiuna",
+      "url": "https://github.com/casiuna/Glassmorphism-Enhanced",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/casiuna/Glassmorphism-Enhanced/main/docs/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/casiuna/Glassmorphism-Enhanced/releases/download/v1.1.1/komari-theme-Glassmorphism-build-c58cff5.zip",
+      "sha256": "ef9aec3d569fe4f9ab7f75393e8079649c17ab31fa53e68669f67fb5153fba68"
     },
     {
       "name": "Komari Glass",
@@ -383,12 +405,12 @@
       "name": "Komari Observatory",
       "short": "LeoNetLab",
       "description": "A soft, responsive observatory theme for Komari with live telemetry, globe and Ping analytics.",
-      "version": "1.4.3-fix3",
+      "version": "1.6.0",
       "author": "LeoNetLab",
       "url": "https://github.com/LeonR-92/komari-theme-leonetlab",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/LeonR-92/komari-theme-leonetlab/main/docs/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/LeonR-92/komari-theme-leonetlab/releases/download/v1.4.3-fix3/komari-theme-leonetlab-build-v1.4.3-fix3.zip",
-      "sha256": "a1b5195bc604be1423df237fb9b285fbb90a26ffe13c469c733123b5280af85d"
+      "download": "https://gh-proxy.com/https://github.com/LeonR-92/komari-theme-leonetlab/releases/download/v1.6.0/komari-theme-leonetlab-build-v1.6.0.zip",
+      "sha256": "384707c2f5b210f62b418ad01574f72a89b5cf2aba9abd3feadafc0d67dcb6f7"
     },
     {
       "name": "Komari Theme Light",
@@ -555,12 +577,12 @@
       "name": "Komari Next",
       "short": "next",
       "description": "Next.js theme for Komari Monitor with multiple layouts, color schemes and status views.",
-      "version": "1.4.19",
+      "version": "1.4.20",
       "author": "tonyliuzj",
       "url": "https://github.com/tonyliuzj/komari-next",
       "preview": "https://gh-proxy.com/https://github.com/tonyliuzj/komari-next/raw/main/images/dark-theme.png",
-      "download": "https://gh-proxy.com/https://github.com/tonyliuzj/komari-next/releases/download/1.4.19/dist-release.zip",
-      "sha256": "94c9fff9830266013ef2cbd02fe02a4773d3a88606f3b28b627a77b2ce3a11ae"
+      "download": "https://gh-proxy.com/https://github.com/tonyliuzj/komari-next/releases/download/1.4.20/dist-release.zip",
+      "sha256": "6f9eaad8484d3d2b963ca37ee0d569566f132fa7199a4c3d8781db2296b07492"
     },
     {
       "name": "Nezha",
