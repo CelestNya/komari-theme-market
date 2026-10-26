@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated_at": "2026-10-23T04:52:03.605Z",
+  "updated_at": "2026-10-26T00:47:49.336Z",
   "themes": [
     {
       "name": "Adhesive Note",
@@ -94,12 +94,12 @@
       "name": "Btop Minimal",
       "short": "btop-minimal",
       "description": "A minimal btop-inspired Komari monitor theme.",
-      "version": "1.6.4",
+      "version": "1.6.6",
       "author": "Tao",
       "url": "https://github.com/yt1988/komari-btop-minimal",
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/yt1988/komari-btop-minimal/master/preview.png",
-      "download": "https://gh-proxy.com/https://github.com/yt1988/komari-btop-minimal/releases/download/v1.6.4/komari-btop-minimal.zip",
-      "sha256": "a9975e1963e44b35dd1ceb75503fbfccb3447639e70861591138369d6ac483c6"
+      "download": "https://gh-proxy.com/https://github.com/yt1988/komari-btop-minimal/releases/download/v1.6.6/komari-btop-minimal.zip",
+      "sha256": "928876b246fc6d8f78534aea6740d61fb92714973343688dca3ca914d15a2bc8"
     },
     {
       "name": "btop++ 极客终端",
@@ -634,6 +634,17 @@
       "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/zleywb/nezha-minimal/refs/heads/main/preview.png",
       "download": "https://gh-proxy.com/https://github.com/zleywb/nezha-minimal/releases/download/V1.1.20/nezha-minimal.zip",
       "sha256": "1d8193d03f67e147abe2a4fc161dacb22499ed8db76e93ec7fdd54f2dabde8c2"
+    },
+    {
+      "name": "Omarchy",
+      "short": "omarchy",
+      "description": "Omarchy-style terminal UI: ASCII banner effects, btop-like meters and graphs. / Omarchy 风格终端界面：ASCII 横幅动画、btop 风格的仪表与曲线。",
+      "version": "1.0.4",
+      "author": "with5",
+      "url": "https://github.com/with5/komari-theme-omarchy",
+      "preview": "https://gh-proxy.com/https://raw.githubusercontent.com/with5/komari-theme-omarchy/main/preview.png",
+      "download": "https://gh-proxy.com/https://github.com/with5/komari-theme-omarchy/releases/download/v1.0.4/omarchy.zip",
+      "sha256": "12b4eed3ada4da4d8aa7cd4d8dd97c1bef589492cb24f5cc6e184bac246a6ead"
     },
     {
       "name": {
